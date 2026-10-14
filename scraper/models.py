@@ -6,10 +6,9 @@ from dataclasses import asdict, dataclass, field
 
 INDUSTRY_VOCAB = {"cybersecurity", "deftech", "cspm", "finops", "grc", "healthtech"}
 TIERS = {"featured", "standard"}
-# Shane's affinity buckets; drives secondary ordering and a display badge.
-RELATIONSHIPS = {"worked", "known", "watchlist"}
-# Lower rank sorts first.
-RELATIONSHIP_RANK = {"worked": 0, "known": 1, "watchlist": 2}
+# Neutral priority tiers; lower sorts first. Drives ordering only (no public meaning).
+PRIORITIES = {1, 2, 3}
+DEFAULT_PRIORITY = 3
 
 
 @dataclass
@@ -21,7 +20,7 @@ class Company:
     identifier: str
     industry: list[str]
     tier: str = "standard"
-    relationship: str = "watchlist"
+    priority: int = DEFAULT_PRIORITY
     homepage: str | None = None
 
 
@@ -48,7 +47,7 @@ class Job:
     url: str
     source_ats: str
     # Set from the company after normalization (see main.scrape_company).
-    company_relationship: str = "watchlist"
+    priority: int = DEFAULT_PRIORITY
     # Filled in by matching.py
     umbrellas: list[str] = field(default_factory=list)
     roles: list[str] = field(default_factory=list)

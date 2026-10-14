@@ -11,7 +11,8 @@ GitHub Actions and the site is served as static files from GitHub Pages.
 > any company listed here. Horizon3.ai roles are featured because this is Shane's personal
 > list, not because of any official relationship.
 
-Companion career guide: **[shane-tips-for-jobs](https://shane-tips-for-jobs.lovable.app/)**
+**Live:** [crsh-ovr.github.io/jobs](https://crsh-ovr.github.io/jobs/) · Companion career guide:
+**[shane-tips-for-jobs](https://shane-tips-for-jobs.lovable.app/)**
 
 ## What it tracks
 
@@ -27,8 +28,11 @@ manager, director, VP.
 
 **Industries:** cybersecurity, deftech, cspm, finops, grc, healthtech.
 
-**Supported ATS platforms:** Ashby, Greenhouse, Lever, Rippling, Gem. (Getro is best-effort
-and off by default; Workday is intentionally not supported.)
+**Location:** US roles only. Postings that hire outside the US (and don't also hire in the
+US) are filtered out; see `scraper/location.py`.
+
+**Supported ATS platforms:** Ashby, Greenhouse, Lever, Rippling, Gem. (Getro and Workday are
+not supported.)
 
 ## How it works
 
@@ -38,9 +42,13 @@ config/*.yaml  →  python -m scraper.main  →  data/jobs.json  →  site/ (Git
 ```
 
 The scraper reads the company allowlist, fetches each company's public job-board JSON,
-normalizes every posting to a common schema, keeps only postings that match a target role,
-tags level/umbrella/industry, de-duplicates, and writes `data/jobs.json`. The static site
-reads that file directly in the browser and filters client-side.
+normalizes every posting to a common schema, keeps only US postings that match a target
+role, tags level/umbrella/industry, de-duplicates, and writes `data/jobs.json`. The static
+site reads that file directly in the browser and filters client-side.
+
+A GitHub Actions workflow (`.github/workflows/scrape.yml`) runs the scraper **daily at
+11:00 UTC** (and on demand), commits the refreshed `data/`, and triggers a Pages redeploy.
+`ci.yml` runs ruff + pytest on every pull request, validating new allowlist entries.
 
 ## Add a company
 

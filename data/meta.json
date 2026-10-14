@@ -41,7 +41,7 @@
       "company": "Defense Unicorns",
       "ats": "greenhouse",
       "ok": true,
-      "count": 60,
+      "count": 59,
       "error": null,
       "matched": 12,
       "dropped_non_us": 0
@@ -104,7 +104,7 @@
       "company": "Keeper Security",
       "ats": "greenhouse",
       "ok": true,
-      "count": 96,
+      "count": 95,
       "error": null,
       "matched": 15,
       "dropped_non_us": 2
@@ -194,7 +194,7 @@
       "company": "Abnormal AI",
       "ats": "greenhouse",
       "ok": true,
-      "count": 87,
+      "count": 86,
       "error": null,
       "matched": 6,
       "dropped_non_us": 1
@@ -221,7 +221,7 @@
       "company": "1Password",
       "ats": "ashby",
       "ok": true,
-      "count": 69,
+      "count": 70,
       "error": null,
       "matched": 12,
       "dropped_non_us": 0
@@ -320,7 +320,7 @@
       "company": "Cribl",
       "ats": "greenhouse",
       "ok": true,
-      "count": 69,
+      "count": 68,
       "error": null,
       "matched": 3,
       "dropped_non_us": 0
@@ -743,8 +743,8 @@
   "any_failures": false,
   "us_only": true,
   "dropped_non_us": 143,
-  "generated_at": "2026-10-14T19:32:41.119960+00:00",
-  "prior_job_count": 498,
+  "generated_at": "2026-10-14T20:10:58.779723+00:00",
+  "prior_job_count": 490,
   "fresh_job_count": 490,
   "total_job_count": 490,
   "shrink_blocked": false

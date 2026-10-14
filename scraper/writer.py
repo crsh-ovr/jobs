@@ -8,7 +8,7 @@ import tempfile
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 
-from .models import RELATIONSHIP_RANK, Job
+from .models import DEFAULT_PRIORITY, Job
 
 
 def _load_prior(path: Path) -> list[dict]:
@@ -81,11 +81,11 @@ def merge_and_write(
             current[jid] = old  # keep as-is; last_seen not refreshed
 
     merged = list(current.values())
-    # featured first, then worked > known > watchlist, then company/title.
+    # featured first, then by priority tier (1 highest), then company/title.
     merged.sort(
         key=lambda j: (
             j.get("company_tier") != "featured",
-            RELATIONSHIP_RANK.get(j.get("company_relationship", "watchlist"), 2),
+            j.get("priority", DEFAULT_PRIORITY),
             j.get("company", ""),
             j.get("title", ""),
         )

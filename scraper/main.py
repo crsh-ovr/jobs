@@ -28,7 +28,7 @@ def scrape_company(company: Company, client: HTTPClient) -> tuple[list[Job], dic
         adapter = get_adapter(company.ats, client)
         jobs = adapter.run(company)
         for job in jobs:
-            job.company_relationship = company.relationship
+            job.priority = company.priority
         status["ok"] = True
         status["count"] = len(jobs)
         return jobs, status

@@ -7,7 +7,7 @@ from pathlib import Path
 
 import yaml
 
-from .models import INDUSTRY_VOCAB, RELATIONSHIPS, TIERS, Company, RoleUmbrella
+from .models import DEFAULT_PRIORITY, INDUSTRY_VOCAB, PRIORITIES, TIERS, Company, RoleUmbrella
 
 CONFIG_DIR = Path(__file__).resolve().parent.parent / "config"
 
@@ -78,11 +78,14 @@ def load_companies(path: Path | None = None, *, valid_ats: set[str] | None = Non
         if tier not in TIERS:
             raise ConfigError(f"{where} has invalid tier '{tier}'; allowed: {sorted(TIERS)}")
 
-        relationship = str(entry.get("relationship", "watchlist")).strip().lower()
-        if relationship not in RELATIONSHIPS:
+        raw_priority = entry.get("priority", DEFAULT_PRIORITY)
+        try:
+            priority = int(raw_priority)
+        except (TypeError, ValueError):
+            raise ConfigError(f"{where} has non-integer priority '{raw_priority}'") from None
+        if priority not in PRIORITIES:
             raise ConfigError(
-                f"{where} has invalid relationship '{relationship}'; "
-                f"allowed: {sorted(RELATIONSHIPS)}"
+                f"{where} has invalid priority '{priority}'; allowed: {sorted(PRIORITIES)}"
             )
 
         key = (ats, str(entry["identifier"]).strip().lower())
@@ -97,7 +100,7 @@ def load_companies(path: Path | None = None, *, valid_ats: set[str] | None = Non
                 identifier=str(entry["identifier"]).strip(),
                 industry=list(industry),
                 tier=tier,
-                relationship=relationship,
+                priority=priority,
                 homepage=entry.get("homepage"),
             )
         )

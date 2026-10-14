@@ -52,3 +52,21 @@ def test_unknown_industry_rejected(tmp_path):
     )
     with pytest.raises(ConfigError):
         load_companies(path=bad, valid_ats=KNOWN_ATS)
+
+
+def test_invalid_priority_rejected(tmp_path):
+    bad = tmp_path / "companies.yaml"
+    bad.write_text(
+        "companies:\n  - name: X\n    ats: ashby\n    identifier: x\n"
+        "    industry: [grc]\n    priority: 9\n"
+    )
+    with pytest.raises(ConfigError):
+        load_companies(path=bad, valid_ats=KNOWN_ATS)
+
+
+def test_priority_defaults_to_three(tmp_path):
+    ok = tmp_path / "companies.yaml"
+    ok.write_text(
+        "companies:\n  - name: X\n    ats: ashby\n    identifier: x\n    industry: [grc]\n"
+    )
+    assert load_companies(path=ok, valid_ats=KNOWN_ATS)[0].priority == 3
