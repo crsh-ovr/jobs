@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T16:03:21.314132+00:00",
+  "generated_at": "2026-10-14T18:47:26.021955+00:00",
   "jobs": [
     {
       "id": "ashby:horizon3ai:c87e8623-770a-489f-9ab1-1be4a37a3263",
@@ -130,7 +130,7 @@
       "source_ats": "ashby",
       "company_relationship": "worked",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "technical_program_manager"
@@ -275,7 +275,7 @@
       "source_ats": "ashby",
       "company_relationship": "worked",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -304,7 +304,7 @@
       "source_ats": "ashby",
       "company_relationship": "worked",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -333,7 +333,7 @@
       "source_ats": "ashby",
       "company_relationship": "worked",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -419,7 +419,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "worked",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -432,34 +432,6 @@
       "description_available": true,
       "compensation": null,
       "posted_at": "2026-06-29T11:58:28-04:00",
-      "first_seen": "2026-10-14",
-      "last_seen": "2026-10-14"
-    },
-    {
-      "id": "greenhouse:defenseunicorns:5227539007",
-      "title": "Platform Engineer",
-      "company": "Defense Unicorns",
-      "company_tier": "standard",
-      "industries": [
-        "deftech"
-      ],
-      "url": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5227539007",
-      "source_ats": "greenhouse",
-      "company_relationship": "known",
-      "umbrellas": [
-        "engineering"
-      ],
-      "roles": [
-        "devops"
-      ],
-      "level": "mid",
-      "location": "San Antonio, Texas",
-      "remote": false,
-      "department": "Federal Delivery",
-      "description_html": "<h1><strong>EMPLOYER IS A CONTRACTOR FOR THE U.S. GOVERNMENT. THIS POSITION REQUIRES U.S. CITIZENSHIP. THIS POSITION IS ONSITE LOCATED IN SAN ANTONIO, TEXAS. ACTIVE SECRET CLEARANCE REQUIRED IN ORDER TO APPLY.&nbsp;</strong></h1>\n<h1><strong>Role Description:&nbsp;</strong></h1>\n<p>Defense Unicorns is seeking a Platform Engineer to support the deployment and maintenance of UDS within a secure, bare-metal environment. You will serve as a bridge between application teams and the platform, advocating best practices and helping ensure that the platform is reliable, secure, and scalable. The ideal candidate is a strong problem-solver with hands-on experience in Kubernetes, bare-metal or on-premises infrastructure, and deploying applications onto Kubernetes-based platforms.</p>\n<h1><strong>Responsibilities:&nbsp;</strong></h1>\n<p><strong>The listed responsibilities are not exhaustive and additional responsibilities may be assigned based on the evolving needs of the organization. We are seeking a dynamic individual who is able to adapt and take on new responsibilities as they arise.</strong></p>\n<ul>\n<li>Support the architecture, deployment, configuration, and testing of bare-metal infrastructure, including GPU compute, storage, and networking</li>\n<li>Deploy, configure, maintain, and troubleshoot UDS and Kubernetes-based platform services</li>\n<li>Develop and manage infrastructure as code (IaC) and configuration to enable consistent, repeatable deployments</li>\n<li>Support secure software delivery, including container images, registries, packages, and deployment artifacts</li>\n<li>Collaborate with mission stakeholders, partner organizations, and Defense Unicorns engineering teams to identify technical requirements and resolve deployment challenges</li>\n<li>Collaborate with mission stakeholders, partner organizations, and Defense Unicorns engineering teams to identify technical requirements and resolve platform challenges</li>\n</ul>\n<p><strong>Travel Expectations/Requirements: </strong>15-25%</p>\n<h1><strong>Preferred Experience and Qualifications:</strong></h1>\n<ul>\n<li>Active Secret clearance required.&nbsp;</li>\n<li>Experience deploying and operating Kubernetes or containerized platforms in bare-metal or on-premises environments (deploying, managing, and troubleshooting clusters and workloads)</li>\n<li>Experience with infrastructure as code tools (e.g., Terraform, Pulumi, or similar)</li>\n<li>Proficiency with CI/CD tooling, particularly GitLab CI or equivalent pipeline platforms</li>\n<li>Working knowledge of Linux/Unix operating systems and command-line administration</li>\n<li>Experience with cloud platforms, preferably AWS (EC2, EKS, IAM, S3, VPC)</li>\n<li>Experience supporting GPU-enabled infrastructure or workloads</li>\n<li>Ability to read and write YAML fluently for Kubernetes manifests, CRDs, Helm charts, and pipeline configurations</li>\n<li>Strong communication and collaboration skills, including the ability to work effectively with partner engineering teams</li>\n<li>Possess or ability to obtain a DoD 8570 IAT II certification (e.g., Security+ CE)</li>\n</ul>\n<p><strong>&nbsp;</strong></p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Full compensation packages are based on candidate experience. Compensation ranges are established using national benchmarking data and apply across all geographic locations within the United States.&nbsp;</p></div><div class=\"title\">Remote - USA</div><div class=\"pay-range\"><span>$123,250</span><span class=\"divider\">&mdash;</span><span>$166,750 USD</span></div></div></div><div class=\"content-conclusion\"><h3>Who We Are</h3>\n<p>Defense Unicorns delivers mission value by streamlining software delivery so our customers can focus on the most important challenges. We share a vision of freedom and security for the advancement of progress and innovation. Our commitment to this vision, and to our mission-driven customers, means a commitment to speed, user experience and optionality, without compromising security. Our team is composed of innovators, software engineers, and veterans with decades of experience delivering technology programs across the federal market.</p>\n<h3>What We Do</h3>\n<p>We create and deliver secure solutions for continuous software integration and delivery. Defense Unicorns consolidates the best practices for security pipelines, testing, and deployment automation in order to meet the high security requirements valued by mission owners. Our solutions are agnostic by design and we believe that growing a robust ecosystem of secure, cloud-native software solutions can help enterprise customers inside and outside the federal market buy and integrate software more easily.</p>\n<h3>Who We Serve</h3>\n<p>Defense Unicorns’ customers are mission-focused leaders across public and private enterprises. We proudly support defense and civil agencies across the U.S. government and we work closely with the creators of leading-edge software solutions to deliver value to the mission-owner by improving the security and consumability of commercial software products.</p>\n<h3><strong>What We Work On</strong></h3>\n<ul>\n<li>Kubernetes</li>\n<li>Cloud Environments (AWS/GCP and Azure)</li>\n<li>Infrastructure-as-code (like Terraform/Pulumi)</li>\n<li>Continuous Delivery and automation tooling</li>\n<li>GitOps</li>\n<li>Containers</li>\n<li>CNCF projects and open source products and packages</li>\n<li>Helm/Kustomize-Value Stream Mapping</li>\n<li>Building and improving security delivery</li>\n<li>Building Kubernetes and cloud native applications</li>\n</ul>\n<h3><strong>Benefits Our Unicorns Enjoy</strong></h3>\n<h4>Health:</h4>\n<ul>\n<li>Medical/Dental/Vision</li>\n<li>Premiums are 100% Company Paid</li>\n<li>Health Savings Account</li>\n<li>Life Insurance</li>\n<li>Disability Insurance</li>\n</ul>\n<h4>Financial:</h4>\n<ul>\n<li>401k Retirement Plan</li>\n<li>Company Stock Options</li>\n<li>Home Office Budget</li>\n</ul>\n<h4>Leave:</h4>\n<ul>\n<li>We offer all full-time Unicorns Flexible Time Off (FTO) plus all Federal Holidays, one week for Thanksgiving, and two weeks for Christmas and New Year’s</li>\n<li>Paid Parental Leave</li>\n</ul>\n<h4>Learning:</h4>\n<ul>\n<li>Reimbursement for approved trainings/subscriptions</li>\n<li>Conferences (travel, lodging, and fees)</li>\n</ul>\n<p><em>Don’t have all the preferred experience or qualifications? Studies show that underrepresented groups like women and people of color are less likely to apply to jobs if they don't meet every requirement listed.&nbsp;</em></p>\n<p><em>At Defense Unicorns, we're committed to diversity. If you're enthusiastic about the role but don't match every criteria, we encourage you to apply. You could be the perfect fit for this or another role! Defense Unicorns is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.</em></p>\n<p><a href=\"https://drive.google.com/file/d/1DzT00w2uadYw9TfdorHuEsvPccZvn_g4/view?usp=drive_link\" target=\"_blank\"><strong>CCPA DISCLOSURE</strong></a></p></div>",
-      "description_available": true,
-      "compensation": null,
-      "posted_at": "2026-10-06T18:34:04-04:00",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
     },
@@ -492,6 +464,34 @@
       "last_seen": "2026-10-14"
     },
     {
+      "id": "greenhouse:defenseunicorns:5224430007",
+      "title": "Platform Engineer",
+      "company": "Defense Unicorns",
+      "company_tier": "standard",
+      "industries": [
+        "deftech"
+      ],
+      "url": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5224430007",
+      "source_ats": "greenhouse",
+      "company_relationship": "known",
+      "umbrellas": [
+        "engineering"
+      ],
+      "roles": [
+        "devops"
+      ],
+      "level": "mid",
+      "location": "San Antonio, Texas",
+      "remote": false,
+      "department": "Federal Delivery",
+      "description_html": "<h1><strong>EMPLOYER IS A CONTRACTOR FOR THE U.S. GOVERNMENT. THIS POSITION REQUIRES U.S. CITIZENSHIP.</strong></h1>\n<h1><strong>Role Description:&nbsp;</strong></h1>\n<p>Defense Unicorns is seeking a Platform Engineer to support the deployment and maintenance of UDS within a secure, bare-metal environment. You will serve as a bridge between application teams and the platform, advocating best practices and helping ensure that the platform is reliable, secure, and scalable. The ideal candidate is a strong problem-solver with hands-on experience in Kubernetes, bare-metal or on-premises infrastructure, and deploying applications onto Kubernetes-based platforms.</p>\n<h1><strong>Responsibilities:&nbsp;</strong></h1>\n<p><strong>The listed responsibilities are not exhaustive and additional responsibilities may be assigned based on the evolving needs of the organization. We are seeking a dynamic individual who is able to adapt and take on new responsibilities as they arise.</strong></p>\n<ul>\n<li>Support the architecture, deployment, configuration, and testing of bare-metal infrastructure, including GPU compute, storage, and networking</li>\n<li>Deploy, configure, maintain, and troubleshoot UDS and Kubernetes-based platform services</li>\n<li>Develop and manage infrastructure as code (IaC) and configuration to enable consistent, repeatable deployments</li>\n<li>Support secure software delivery, including container images, registries, packages, and deployment artifacts</li>\n<li>Collaborate with mission stakeholders, partner organizations, and Defense Unicorns engineering teams to identify technical requirements and resolve deployment challenges</li>\n<li>Collaborate with mission stakeholders, partner organizations, and Defense Unicorns engineering teams to identify technical requirements and resolve platform challenges</li>\n</ul>\n<p><strong>Travel Expectations/Requirements:&nbsp;</strong>10%-15%</p>\n<h1><strong>Preferred Experience and Qualifications:</strong></h1>\n<ul>\n<li>Active Secret/Top Secret Security Clearance</li>\n<li>Experience deploying and operating Kubernetes or containerized platforms in bare-metal or on-premises environments (deploying, managing, and troubleshooting clusters and workloads)</li>\n<li>Experience with infrastructure as code tools (e.g., Terraform, Pulumi, or similar)</li>\n<li>Proficiency with CI/CD tooling, particularly GitLab CI or equivalent pipeline platforms</li>\n<li>Working knowledge of Linux/Unix operating systems and command-line administration</li>\n<li>Experience with cloud platforms, preferably AWS (EC2, EKS, IAM, S3, VPC)</li>\n<li>Experience supporting GPU-enabled infrastructure or workloads</li>\n<li>Ability to read and write YAML fluently for Kubernetes manifests, CRDs, Helm charts, and pipeline configurations</li>\n<li>Strong communication and collaboration skills, including the ability to work effectively with partner engineering teams</li>\n<li>Possess or ability to obtain a DoD 8570 IAT II certification (e.g., Security+ CE)</li>\n</ul><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Full compensation packages are based on candidate experience. Compensation ranges are established using national benchmarking data and apply across all geographic locations within the United States.&nbsp;</p></div><div class=\"title\">Remote - USA</div><div class=\"pay-range\"><span>$123,250</span><span class=\"divider\">&mdash;</span><span>$166,750 USD</span></div></div></div><div class=\"content-conclusion\"><h3>Who We Are</h3>\n<p>Defense Unicorns delivers mission value by streamlining software delivery so our customers can focus on the most important challenges. We share a vision of freedom and security for the advancement of progress and innovation. Our commitment to this vision, and to our mission-driven customers, means a commitment to speed, user experience and optionality, without compromising security. Our team is composed of innovators, software engineers, and veterans with decades of experience delivering technology programs across the federal market.</p>\n<h3>What We Do</h3>\n<p>We create and deliver secure solutions for continuous software integration and delivery. Defense Unicorns consolidates the best practices for security pipelines, testing, and deployment automation in order to meet the high security requirements valued by mission owners. Our solutions are agnostic by design and we believe that growing a robust ecosystem of secure, cloud-native software solutions can help enterprise customers inside and outside the federal market buy and integrate software more easily.</p>\n<h3>Who We Serve</h3>\n<p>Defense Unicorns’ customers are mission-focused leaders across public and private enterprises. We proudly support defense and civil agencies across the U.S. government and we work closely with the creators of leading-edge software solutions to deliver value to the mission-owner by improving the security and consumability of commercial software products.</p>\n<h3><strong>What We Work On</strong></h3>\n<ul>\n<li>Kubernetes</li>\n<li>Cloud Environments (AWS/GCP and Azure)</li>\n<li>Infrastructure-as-code (like Terraform/Pulumi)</li>\n<li>Continuous Delivery and automation tooling</li>\n<li>GitOps</li>\n<li>Containers</li>\n<li>CNCF projects and open source products and packages</li>\n<li>Helm/Kustomize-Value Stream Mapping</li>\n<li>Building and improving security delivery</li>\n<li>Building Kubernetes and cloud native applications</li>\n</ul>\n<h3><strong>Benefits Our Unicorns Enjoy</strong></h3>\n<h4>Health:</h4>\n<ul>\n<li>Medical/Dental/Vision</li>\n<li>Premiums are 100% Company Paid</li>\n<li>Health Savings Account</li>\n<li>Life Insurance</li>\n<li>Disability Insurance</li>\n</ul>\n<h4>Financial:</h4>\n<ul>\n<li>401k Retirement Plan</li>\n<li>Company Stock Options</li>\n<li>Home Office Budget</li>\n</ul>\n<h4>Leave:</h4>\n<ul>\n<li>We offer all full-time Unicorns Flexible Time Off (FTO) plus all Federal Holidays, one week for Thanksgiving, and two weeks for Christmas and New Year’s</li>\n<li>Paid Parental Leave</li>\n</ul>\n<h4>Learning:</h4>\n<ul>\n<li>Reimbursement for approved trainings/subscriptions</li>\n<li>Conferences (travel, lodging, and fees)</li>\n</ul>\n<p><em>Don’t have all the preferred experience or qualifications? Studies show that underrepresented groups like women and people of color are less likely to apply to jobs if they don't meet every requirement listed.&nbsp;</em></p>\n<p><em>At Defense Unicorns, we're committed to diversity. If you're enthusiastic about the role but don't match every criteria, we encourage you to apply. You could be the perfect fit for this or another role! Defense Unicorns is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.</em></p>\n<p><a href=\"https://drive.google.com/file/d/1DzT00w2uadYw9TfdorHuEsvPccZvn_g4/view?usp=drive_link\" target=\"_blank\"><strong>CCPA DISCLOSURE</strong></a></p></div>",
+      "description_available": true,
+      "compensation": null,
+      "posted_at": "2026-10-09T18:23:11-04:00",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    {
       "id": "greenhouse:defenseunicorns:5229340007",
       "title": "Platform Engineer",
       "company": "Defense Unicorns",
@@ -516,6 +516,34 @@
       "description_available": true,
       "compensation": null,
       "posted_at": "2026-09-30T17:21:13-04:00",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    {
+      "id": "greenhouse:defenseunicorns:5227539007",
+      "title": "Platform Engineer",
+      "company": "Defense Unicorns",
+      "company_tier": "standard",
+      "industries": [
+        "deftech"
+      ],
+      "url": "https://job-boards.greenhouse.io/defenseunicorns/jobs/5227539007",
+      "source_ats": "greenhouse",
+      "company_relationship": "known",
+      "umbrellas": [
+        "engineering"
+      ],
+      "roles": [
+        "devops"
+      ],
+      "level": "mid",
+      "location": "San Antonio, Texas",
+      "remote": false,
+      "department": "Federal Delivery",
+      "description_html": "<h1><strong>EMPLOYER IS A CONTRACTOR FOR THE U.S. GOVERNMENT. THIS POSITION REQUIRES U.S. CITIZENSHIP. THIS POSITION IS ONSITE LOCATED IN SAN ANTONIO, TEXAS. ACTIVE SECRET CLEARANCE REQUIRED IN ORDER TO APPLY.&nbsp;</strong></h1>\n<h1><strong>Role Description:&nbsp;</strong></h1>\n<p>Defense Unicorns is seeking a Platform Engineer to support the deployment and maintenance of UDS within a secure, bare-metal environment. You will serve as a bridge between application teams and the platform, advocating best practices and helping ensure that the platform is reliable, secure, and scalable. The ideal candidate is a strong problem-solver with hands-on experience in Kubernetes, bare-metal or on-premises infrastructure, and deploying applications onto Kubernetes-based platforms.</p>\n<h1><strong>Responsibilities:&nbsp;</strong></h1>\n<p><strong>The listed responsibilities are not exhaustive and additional responsibilities may be assigned based on the evolving needs of the organization. We are seeking a dynamic individual who is able to adapt and take on new responsibilities as they arise.</strong></p>\n<ul>\n<li>Support the architecture, deployment, configuration, and testing of bare-metal infrastructure, including GPU compute, storage, and networking</li>\n<li>Deploy, configure, maintain, and troubleshoot UDS and Kubernetes-based platform services</li>\n<li>Develop and manage infrastructure as code (IaC) and configuration to enable consistent, repeatable deployments</li>\n<li>Support secure software delivery, including container images, registries, packages, and deployment artifacts</li>\n<li>Collaborate with mission stakeholders, partner organizations, and Defense Unicorns engineering teams to identify technical requirements and resolve deployment challenges</li>\n<li>Collaborate with mission stakeholders, partner organizations, and Defense Unicorns engineering teams to identify technical requirements and resolve platform challenges</li>\n</ul>\n<p><strong>Travel Expectations/Requirements: </strong>15-25%</p>\n<h1><strong>Preferred Experience and Qualifications:</strong></h1>\n<ul>\n<li>Active Secret clearance required.&nbsp;</li>\n<li>Experience deploying and operating Kubernetes or containerized platforms in bare-metal or on-premises environments (deploying, managing, and troubleshooting clusters and workloads)</li>\n<li>Experience with infrastructure as code tools (e.g., Terraform, Pulumi, or similar)</li>\n<li>Proficiency with CI/CD tooling, particularly GitLab CI or equivalent pipeline platforms</li>\n<li>Working knowledge of Linux/Unix operating systems and command-line administration</li>\n<li>Experience with cloud platforms, preferably AWS (EC2, EKS, IAM, S3, VPC)</li>\n<li>Experience supporting GPU-enabled infrastructure or workloads</li>\n<li>Ability to read and write YAML fluently for Kubernetes manifests, CRDs, Helm charts, and pipeline configurations</li>\n<li>Strong communication and collaboration skills, including the ability to work effectively with partner engineering teams</li>\n<li>Possess or ability to obtain a DoD 8570 IAT II certification (e.g., Security+ CE)</li>\n</ul>\n<p><strong>&nbsp;</strong></p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Full compensation packages are based on candidate experience. Compensation ranges are established using national benchmarking data and apply across all geographic locations within the United States.&nbsp;</p></div><div class=\"title\">Remote - USA</div><div class=\"pay-range\"><span>$123,250</span><span class=\"divider\">&mdash;</span><span>$166,750 USD</span></div></div></div><div class=\"content-conclusion\"><h3>Who We Are</h3>\n<p>Defense Unicorns delivers mission value by streamlining software delivery so our customers can focus on the most important challenges. We share a vision of freedom and security for the advancement of progress and innovation. Our commitment to this vision, and to our mission-driven customers, means a commitment to speed, user experience and optionality, without compromising security. Our team is composed of innovators, software engineers, and veterans with decades of experience delivering technology programs across the federal market.</p>\n<h3>What We Do</h3>\n<p>We create and deliver secure solutions for continuous software integration and delivery. Defense Unicorns consolidates the best practices for security pipelines, testing, and deployment automation in order to meet the high security requirements valued by mission owners. Our solutions are agnostic by design and we believe that growing a robust ecosystem of secure, cloud-native software solutions can help enterprise customers inside and outside the federal market buy and integrate software more easily.</p>\n<h3>Who We Serve</h3>\n<p>Defense Unicorns’ customers are mission-focused leaders across public and private enterprises. We proudly support defense and civil agencies across the U.S. government and we work closely with the creators of leading-edge software solutions to deliver value to the mission-owner by improving the security and consumability of commercial software products.</p>\n<h3><strong>What We Work On</strong></h3>\n<ul>\n<li>Kubernetes</li>\n<li>Cloud Environments (AWS/GCP and Azure)</li>\n<li>Infrastructure-as-code (like Terraform/Pulumi)</li>\n<li>Continuous Delivery and automation tooling</li>\n<li>GitOps</li>\n<li>Containers</li>\n<li>CNCF projects and open source products and packages</li>\n<li>Helm/Kustomize-Value Stream Mapping</li>\n<li>Building and improving security delivery</li>\n<li>Building Kubernetes and cloud native applications</li>\n</ul>\n<h3><strong>Benefits Our Unicorns Enjoy</strong></h3>\n<h4>Health:</h4>\n<ul>\n<li>Medical/Dental/Vision</li>\n<li>Premiums are 100% Company Paid</li>\n<li>Health Savings Account</li>\n<li>Life Insurance</li>\n<li>Disability Insurance</li>\n</ul>\n<h4>Financial:</h4>\n<ul>\n<li>401k Retirement Plan</li>\n<li>Company Stock Options</li>\n<li>Home Office Budget</li>\n</ul>\n<h4>Leave:</h4>\n<ul>\n<li>We offer all full-time Unicorns Flexible Time Off (FTO) plus all Federal Holidays, one week for Thanksgiving, and two weeks for Christmas and New Year’s</li>\n<li>Paid Parental Leave</li>\n</ul>\n<h4>Learning:</h4>\n<ul>\n<li>Reimbursement for approved trainings/subscriptions</li>\n<li>Conferences (travel, lodging, and fees)</li>\n</ul>\n<p><em>Don’t have all the preferred experience or qualifications? Studies show that underrepresented groups like women and people of color are less likely to apply to jobs if they don't meet every requirement listed.&nbsp;</em></p>\n<p><em>At Defense Unicorns, we're committed to diversity. If you're enthusiastic about the role but don't match every criteria, we encourage you to apply. You could be the perfect fit for this or another role! Defense Unicorns is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.</em></p>\n<p><a href=\"https://drive.google.com/file/d/1DzT00w2uadYw9TfdorHuEsvPccZvn_g4/view?usp=drive_link\" target=\"_blank\"><strong>CCPA DISCLOSURE</strong></a></p></div>",
+      "description_available": true,
+      "compensation": null,
+      "posted_at": "2026-10-06T18:34:04-04:00",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
     },
@@ -587,7 +615,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "known",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -711,7 +739,7 @@
       "description_html": "<h1><strong>Senior Platform Engineer</strong></h1>\n<p><em>AI Engineering | Forward Deployed Engineering</em></p>\n<h1><strong>Role Description</strong></h1>\n<p>Defense Unicorns is seeking a senior AI Agentic Engineer to embed with a government team and its technology partners building an emerging AI-powered engineering ecosystem.</p>\n<p>This role will focus on designing, integrating, and operationalizing AI agents and agentic workflows within a secure enterprise environment. The engineer will work across large language models, agent frameworks, enterprise data, APIs, developer tooling, and platform services to turn AI capabilities into reliable, mission-relevant workflows.</p>\n<p>The ideal candidate is a hands-on engineer who understands both the capabilities and limitations of modern AI systems and can rapidly translate emerging technologies into working solutions. They should be comfortable experimenting with new models and agent frameworks, integrating agents with enterprise systems and tools, evaluating performance and reliability, and working alongside platform engineers and commercial technology partners.</p>\n<p>This is not a research-only role. The focus is on moving from AI concepts and prototypes to secure, useful, repeatable agentic capabilities that can operate in production environments.</p>\n<h1><strong>Responsibilities</strong></h1>\n<ul>\n<li>Design, build, and integrate AI agents and multi-agent workflows using modern LLM and agentic technologies.</li>\n<li>Develop agent capabilities that interact with enterprise applications, APIs, data sources, developer tools, and mission systems.</li>\n<li>Integrate models, agents, tools, and enterprise data into secure workflows that can be deployed in controlled and classified environments.</li>\n<li>Work with LLMs, RAG, embeddings, vector databases, tool/function calling, structured outputs, MCP, and related technologies.</li>\n<li>Develop mechanisms for agents to securely discover, access, reason over, and act upon approved enterprise data and services.</li>\n<li>Prototype and rapidly evaluate emerging models, agent frameworks, and AI capabilities to determine where they can create measurable mission or engineering value.</li>\n<li>Develop evaluation and testing frameworks for agent accuracy, reliability, safety, latency, cost, and task completion.</li>\n<li>Implement guardrails and policy controls governing agent behavior, tool access, data access, and human approval points.</li>\n<li>Integrate agentic capabilities with CI/CD and DevSecOps workflows to support repeatable development, testing, deployment, and lifecycle management.</li>\n<li>Collaborate with platform engineers to operationalize AI workloads within Kubernetes/OpenShift environments.</li>\n<li>Work with commercial AI and technology partners to integrate their capabilities into the broader engineering ecosystem.</li>\n<li>Troubleshoot issues across models, agent frameworks, APIs, data sources, networking, identity, and infrastructure.</li>\n<li>Develop reusable patterns for agent deployment, configuration, observability, evaluation, and lifecycle management.</li>\n<li>Document architectures, integration patterns, agent specifications, evaluation results, and operational procedures.</li>\n<li>Identify recurring AI engineering challenges that can be standardized, automated, or productized into reusable capabilities.</li>\n<li>Stay current with rapidly evolving agentic AI technologies and assess their applicability to secure government environments.</li>\n</ul>\n<h1><strong>Minimum Experience and Qualifications</strong></h1>\n<ul>\n<li>Active TS/SCI clearance.</li>\n<li>Hands-on experience building applications or systems using large language models and generative AI.</li>\n<li>Experience designing and implementing AI agents or agentic workflows.</li>\n<li>Strong programming experience in Python and/or another modern programming language.</li>\n<li>Experience integrating AI systems with APIs, enterprise applications, databases, and external tools.</li>\n<li>Experience with one or more agent frameworks or orchestration approaches.</li>\n<li>Working knowledge of RAG, embeddings, vector databases, tool/function calling, structured outputs, and prompt engineering.</li>\n<li>Experience developing software in a Git-based, automated CI/CD environment.</li>\n<li>Ability to rapidly prototype, test, troubleshoot, and iterate in ambiguous environments.</li>\n<li>Strong understanding of software engineering fundamentals, including testing, version control, APIs, debugging, and system design.</li>\n<li>Ability to work effectively alongside platform engineers, government personnel, and multiple technology vendors.</li>\n</ul>\n<h1><strong>Preferred Experience and Qualifications</strong></h1>\n<ul>\n<li>Experience with MCP (Model Context Protocol) and tool-based agent architectures.</li>\n<li>Experience with multi-agent systems and agent orchestration.</li>\n<li>Experience with OpenAI, Anthropic, Google, NVIDIA, or comparable foundation model ecosystems.</li>\n<li>Experience with NVIDIA NIM, NeMo, or similar AI inference/model-serving technologies.</li>\n<li>Experience with Red Hat OpenShift AI or Kubernetes-based AI platforms.</li>\n<li>Experience with agent evaluation and observability frameworks.</li>\n<li>Experience implementing AI guardrails, policy enforcement, human-in-the-loop workflows, or AI safety controls.</li>\n<li>Experience with LangGraph, LangChain, LlamaIndex, Semantic Kernel, or comparable frameworks.</li>\n<li>Experience with RAG pipelines, vector databases, knowledge graphs, and enterprise search.</li>\n<li>Experience deploying AI systems in Secret or TS/SCI environments.</li>\n<li>Experience with disconnected or air-gapped AI environments.</li>\n<li>Experience integrating AI into developer/DevSecOps workflows.</li>\n<li>Familiarity with GitLab, Jira, Confluence, Xacta, or similar enterprise engineering and compliance tools.</li>\n<li>Experience working with GPUs, model serving, inference optimization, or AI infrastructure.</li>\n<li>Familiarity with UDS, Zarf, Pepr, Iron Bank, or similar secure software delivery technologies.</li>\n<li>Experience taking AI prototypes into repeatable, production-ready capabilities.</li>\n<li>Ability to evaluate new AI technologies quickly and make pragmatic build/buy/integrate decisions.</li>\n</ul>\n<h3><strong>What Success Looks Like</strong></h3>\n<ul>\n<li>Agentic capabilities move from prototype to mission use quickly, with working agents integrated into real government workflows rather than remaining isolated demos.</li>\n<li>Agents reliably connect to approved enterprise data, tools, and services, with appropriate identity, permissions, guardrails, and human-in-the-loop controls.</li>\n<li>AI capabilities are measurable and trustworthy, with repeatable evaluation methods for accuracy, reliability, task completion, security, and operational performance.</li>\n<li>Reusable agent patterns emerge, reducing the engineering required to build and deploy the next agent or AI-enabled workflow.</li>\n<li>AI integrates cleanly with the broader platform architecture, working effectively across the data, DevSecOps, Kubernetes/OpenShift, model, and application layers rather than creating another technology silo.</li>\n<li>The engineer becomes a trusted AI technical advisor to the Mission Hero, proactively identifying where agentic technology can create mission value—and equally important, where AI is not the right solution.</li>\n</ul><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"description\"><p>Full compensation packages are based on candidate experience. Compensation ranges are established using national benchmarking data and apply across all geographic locations within the United States.&nbsp;</p></div><div class=\"title\">Remote - USA</div><div class=\"pay-range\"><span>$148,750</span><span class=\"divider\">&mdash;</span><span>$201,250 USD</span></div></div></div><div class=\"content-conclusion\"><h3>Who We Are</h3>\n<p>Defense Unicorns delivers mission value by streamlining software delivery so our customers can focus on the most important challenges. We share a vision of freedom and security for the advancement of progress and innovation. Our commitment to this vision, and to our mission-driven customers, means a commitment to speed, user experience and optionality, without compromising security. Our team is composed of innovators, software engineers, and veterans with decades of experience delivering technology programs across the federal market.</p>\n<h3>What We Do</h3>\n<p>We create and deliver secure solutions for continuous software integration and delivery. Defense Unicorns consolidates the best practices for security pipelines, testing, and deployment automation in order to meet the high security requirements valued by mission owners. Our solutions are agnostic by design and we believe that growing a robust ecosystem of secure, cloud-native software solutions can help enterprise customers inside and outside the federal market buy and integrate software more easily.</p>\n<h3>Who We Serve</h3>\n<p>Defense Unicorns’ customers are mission-focused leaders across public and private enterprises. We proudly support defense and civil agencies across the U.S. government and we work closely with the creators of leading-edge software solutions to deliver value to the mission-owner by improving the security and consumability of commercial software products.</p>\n<h3><strong>What We Work On</strong></h3>\n<ul>\n<li>Kubernetes</li>\n<li>Cloud Environments (AWS/GCP and Azure)</li>\n<li>Infrastructure-as-code (like Terraform/Pulumi)</li>\n<li>Continuous Delivery and automation tooling</li>\n<li>GitOps</li>\n<li>Containers</li>\n<li>CNCF projects and open source products and packages</li>\n<li>Helm/Kustomize-Value Stream Mapping</li>\n<li>Building and improving security delivery</li>\n<li>Building Kubernetes and cloud native applications</li>\n</ul>\n<h3><strong>Benefits Our Unicorns Enjoy</strong></h3>\n<h4>Health:</h4>\n<ul>\n<li>Medical/Dental/Vision</li>\n<li>Premiums are 100% Company Paid</li>\n<li>Health Savings Account</li>\n<li>Life Insurance</li>\n<li>Disability Insurance</li>\n</ul>\n<h4>Financial:</h4>\n<ul>\n<li>401k Retirement Plan</li>\n<li>Company Stock Options</li>\n<li>Home Office Budget</li>\n</ul>\n<h4>Leave:</h4>\n<ul>\n<li>We offer all full-time Unicorns Flexible Time Off (FTO) plus all Federal Holidays, one week for Thanksgiving, and two weeks for Christmas and New Year’s</li>\n<li>Paid Parental Leave</li>\n</ul>\n<h4>Learning:</h4>\n<ul>\n<li>Reimbursement for approved trainings/subscriptions</li>\n<li>Conferences (travel, lodging, and fees)</li>\n</ul>\n<p><em>Don’t have all the preferred experience or qualifications? Studies show that underrepresented groups like women and people of color are less likely to apply to jobs if they don't meet every requirement listed.&nbsp;</em></p>\n<p><em>At Defense Unicorns, we're committed to diversity. If you're enthusiastic about the role but don't match every criteria, we encourage you to apply. You could be the perfect fit for this or another role! Defense Unicorns is an equal opportunity employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, disability, sex, sexual orientation, gender identity or expression, age, national origin, veteran status, genetic information, union status and/or beliefs, or any other characteristic protected by federal, state, or local law.</em></p>\n<p><a href=\"https://drive.google.com/file/d/1DzT00w2uadYw9TfdorHuEsvPccZvn_g4/view?usp=drive_link\" target=\"_blank\"><strong>CCPA DISCLOSURE</strong></a></p></div>",
       "description_available": true,
       "compensation": null,
-      "posted_at": "2026-10-01T10:29:35-04:00",
+      "posted_at": "2026-10-14T13:30:24-04:00",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
     },
@@ -755,7 +783,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "known",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -811,7 +839,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "known",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -839,7 +867,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "known",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "technical_program_manager"
@@ -852,6 +880,34 @@
       "description_available": true,
       "compensation": null,
       "posted_at": "2026-09-25T08:37:32-04:00",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    {
+      "id": "ashby:Second-Front-Systems:2171c580-fc91-4c66-b39c-542219248bd0",
+      "title": "Platform Engineer",
+      "company": "Second Front Systems",
+      "company_tier": "standard",
+      "industries": [
+        "deftech"
+      ],
+      "url": "https://jobs.ashbyhq.com/Second-Front-Systems/2171c580-fc91-4c66-b39c-542219248bd0/application",
+      "source_ats": "ashby",
+      "company_relationship": "known",
+      "umbrellas": [
+        "engineering"
+      ],
+      "roles": [
+        "devops"
+      ],
+      "level": "mid",
+      "location": "Remote",
+      "remote": true,
+      "department": "International Sales",
+      "description_html": "<p style=\"min-height:1.5em\"><strong>About Second Front Systems</strong></p><p style=\"min-height:1.5em\">Second Front is a venture-backed company on a mission to strengthen global security by accelerating access to emerging technologies for the U.S. and our allies. Founded by Marines who saw firsthand how outdated government acquisition systems held back frontline personnel, we help commercial software companies get mission-critical technology into the hands of government users faster — backed by FedRAMP High, DoD IL2–IL6/JWICS, GovRAMP, UK MOD, and NATO authorizations. Our team is mission-obsessed, collaborative, and decisive, and we’re proud to be Great Place to Work® certified.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>About the Role</strong></p><p style=\"min-height:1.5em\">Second Front Systems is looking for an infrastructure-focused, compliance-minded, operationally disciplined Platform Engineer to strengthen our Platform Engineering function across European regulated environments.</p><p style=\"min-height:1.5em\">This role sits at the intersection of systems, tooling, and engineering — translating infrastructure reliability and deployment velocity into warfighter-ready software delivery. You’ll be responsible for deploying, operating, and maintaining Game Warden across EMEA cloud environments while establishing secure, repeatable platform patterns that satisfy sovereignty and assurance requirements.</p><p style=\"min-height:1.5em\">You’ll build landing zones and reference architectures using infrastructure-as-code and cloud-native tooling, keeping European deployments aligned with our global platform patterns while preserving accreditation inheritance across target environments. We need someone who can operate cloud-native infrastructure at production scale; build and maintain secure CI/CD pipelines, monitoring, and observability for regulated and potentially air-gapped environments; and produce the technical evidence and documentation needed to support applicable European security, accreditation, and regulatory requirements. As a key partner to our implementation and delivery teams, you’ll prepare production environments and hand them off with complete runbooks and technical evidence — serving as the operational bridge between platform architecture and customer deployment.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Work authorization &amp; location:</strong> Candidates must hold citizenship in an EU member state, along with the right to work in the European Union, and be based in the EU (Remote). Unlike some of our other EU-based roles, this position requires citizenship rather than residency alone, given the security clearance and accreditation requirements tied to the systems this role supports. Candidates from any of the 27 EU member states are eligible, and you may be located anywhere in the EU.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Employment type &amp; schedule:</strong> This is a full-time, remote position based in the EU, with compensation stated in EUR.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What You’ll Do</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Deploy Game Warden and other Second Front products across AWS, Azure, GCP, and sovereign-cloud infrastructure in European regions, to specification.</p></li><li><p style=\"min-height:1.5em\">Architect landing zones that satisfy sovereignty, customer-control, and GDPR requirements without single-vendor lock-in.</p></li><li><p style=\"min-height:1.5em\">Govern Kubernetes, container runtimes, and infrastructure-as-code tooling to enforce repeatability across deployments.</p></li><li><p style=\"min-height:1.5em\">Drive CI/CD, networking, identity, observability, and security controls against target-environment constraints and threat models.</p></li><li><p style=\"min-height:1.5em\">Implement the technical controls and documentation required for EAL, FedRAMP, GovRAMP, NATO, UK MOD, or equivalent customer accreditation regimes.</p></li><li><p style=\"min-height:1.5em\">Translate engineering tooling requirements into platform specifications, ensuring CI/CD, containerization, and accreditation workflows meet time-sensitive delivery windows.</p></li><li><p style=\"min-height:1.5em\">Work with platform and engineering leads to resolve conflicts between automation, hardening, and operational constraints.</p></li><li><p style=\"min-height:1.5em\">Sequence platform rollouts and upgrades to minimize disruption to active development while maintaining compliance posture and system hardening.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>What You Bring</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">5+ years of hands-on platform engineering, DevSecOps, cloud infrastructure, SRE, or systems engineering experience in production environments.</p></li><li><p style=\"min-height:1.5em\">Deep fluency with AWS, Azure, GCP, or equivalent cloud platforms operating at scale.</p></li><li><p style=\"min-height:1.5em\">Production-grade Kubernetes and container orchestration experience in live systems.</p></li><li><p style=\"min-height:1.5em\">Hands-on experience writing and maintaining infrastructure-as-code with Terraform, CloudFormation, or Pulumi.</p></li><li><p style=\"min-height:1.5em\">A track record building, securing, and operating CI/CD pipelines under regulatory or high-assurance compliance requirements.</p></li><li><p style=\"min-height:1.5em\">Working knowledge of networking, IAM, SAML/OAuth, APIs, and distributed-systems troubleshooting in production.</p></li><li><p style=\"min-height:1.5em\">Fluent English and a proven ability to collaborate asynchronously across distributed global engineering teams.</p></li><li><p style=\"min-height:1.5em\">EU citizenship (any of the 27 EU member states) and the right to work in the EU.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Preferred Qualifications</strong></p><ul style=\"min-height:1.5em\"><li><p style=\"min-height:1.5em\">Existing government or NATO security clearance, or eligibility to obtain one.</p></li><li><p style=\"min-height:1.5em\">Experience operating in air-gapped, classified, or other high-assurance environments.</p></li><li><p style=\"min-height:1.5em\">Familiarity with EAL/Common Criteria, FedRAMP, GovRAMP, NATO, or UK MOD accreditation processes; and/or familiarity with other frameworks such as NIS-2, CRA, etc.</p></li><li><p style=\"min-height:1.5em\">Proficiency in a systems or scripting language (e.g., Go, Python, or Rust) for building internal tooling.</p></li></ul><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Compensation &amp; Benefits</strong></p><p style=\"min-height:1.5em\">The base salary for this position will fall between €120,000 and €140,000. Your ultimate compensation will be determined by professional background, technical proficiency, seniority, and regional cost factors. This role is also eligible for equity awards and discretionary bonuses as part of a broader total rewards package.</p><p style=\"min-height:1.5em\"></p><p style=\"min-height:1.5em\"><strong>Equal Opportunity</strong></p><p style=\"min-height:1.5em\">Second Front Systems is an Equal Opportunity Employer. We celebrate diversity and are committed to creating an inclusive environment for all employees, and we do not discriminate on the basis of race, religion, color, national origin, gender, sexual orientation, age, marital status, veteran status, or disability status, except where a specific nationality or citizenship requirement is a genuine and determining condition of the role, as is the case with the EU citizenship requirement above.</p>",
+      "description_available": true,
+      "compensation": "€120K – €140K",
+      "posted_at": "2026-10-14T18:16:28.122+00:00",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
     },
@@ -895,7 +951,7 @@
       "source_ats": "ashby",
       "company_relationship": "known",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -923,7 +979,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "known",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -936,6 +992,34 @@
       "description_available": true,
       "compensation": null,
       "posted_at": "2026-07-02T13:21:18-04:00",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    {
+      "id": "greenhouse:vannevarlabs:5265667007",
+      "title": "Recruiting Coordinator",
+      "company": "Vannevar Labs",
+      "company_tier": "standard",
+      "industries": [
+        "deftech"
+      ],
+      "url": "https://job-boards.greenhouse.io/vannevarlabs/jobs/5265667007",
+      "source_ats": "greenhouse",
+      "company_relationship": "known",
+      "umbrellas": [
+        "gtm_revenue"
+      ],
+      "roles": [
+        "recruiter"
+      ],
+      "level": "mid",
+      "location": "Remote",
+      "remote": true,
+      "department": "People",
+      "description_html": "<div class=\"content-intro\"><p>Vannevar builds AI systems for the Department of War's most consequential missions. We have 125 deployments across every branch and combatant command spanning our core platform and five distinct products. An an example of how we work, when major combat operations started with Iran, we fielded a new product supporting 24/7 operations and 9,000+ users in three months.<br><br>How we build is our advantage: we deploy forward with the people who own the mission. Our engineers, product team, and CTO deploy forward to the point of friction, including visiting units in Ukraine. We focus on embedding directly with operational units supporting great power competition with China, combat operations with Iran, and counter-narcotics missions.</p></div><p><strong>About the role</strong></p>\n<p>At Vannevar, hiring exceptional people is one of the highest-leverage things we do. We're competing for talent in a market where speed matters, and where a great candidate experience can make the difference between landing someone and losing them.</p>\n<p>As our Recruiting Coordinator, you'll own the scheduling and logistics that keep our hiring process moving. You'll coordinate interviews across Engineering and Mission, work directly with recruiters and hiring managers, and make sure candidates have a consistently excellent experience from their first conversation through their final interview.</p>\n<p>We’re a small team of ~200 mission-driven people, and hiring is one of our biggest priorities over the next year. This is a high-ownership role. You’ll work directly with our recruiters and engineering leadership, and you’ll have real influence on how interviewing works at Vannevar.</p>\n<p><strong>What you'll do</strong></p>\n<ul>\n<li>Own end-to-end interview scheduling across recruiter screens, hiring manager screens, technical screens and case interviews, virtual onsite rounds, and final interviews</li>\n<li>Request candidate availability and match them to the right interviewers for each role and round</li>\n<li>Coordinate across busy calendars, including working directly with interviewers and their EAs to find time and move meetings when needed</li>\n<li>Send interviewer invites and candidate confirmations, and keep both sides informed of any changes</li>\n<li>Manage reschedules, last-minute changes and cancellations, and make sure no candidate falls through the cracks</li>\n<li>Proactively identify scheduling bottlenecks and resolve them before they delay a candidate's process</li>\n<li>Maintain pre-scheduled interview blocks and work with hiring managers to protect interview capacity</li>\n<li>Be the point of contact for candidates on interview logistics</li>\n<li>Partner with recruiters to prioritize urgent loops and keep the process moving quickly</li>\n<li>Keep scheduling data and interview records accurate in our ATS</li>\n<li>Support interviewer onboarding by scheduling shadow and reverse-shadow sessions</li>\n<li>Help us continuously improve our interview scheduling process as we scal</li>\n</ul>\n<p><strong>What we’re looking for&nbsp;</strong></p>\n<ul>\n<li>1+ years of experience in recruiting coordination, executive assistance, or another calendar-heavy operations role</li>\n<li>Exceptional organization, attention to detail, and the ability to manage many concurrent processes without dropping the ball</li>\n<li>Strong written communication and a warm, professional tone with candidates</li>\n<li>Good judgment about when to move a meeting, when to escalate, and when to ask for help</li>\n<li>Experience with scheduling tools and calendar management; familiarity with Greenhouse and Outlook preferred</li>\n<li>Ability to work across Pacific and Eastern time zones when necessary</li>\n<li>Experience at a startup or high-growth company, technical recruiting, or defense / related industry</li>\n</ul>\n<h3>What we offer</h3>\n<h4>Comprehensive Benefits</h4>\n<div class=\"p-rich_text_section\">We’re proud to offer competitive benefits that support our employees. Some key highlights of our benefits package include:</div>\n<ul class=\"p-rich_text_list p-rich_text_list__bullet\" data-stringify-type=\"unordered-list\" data-indent=\"0\" data-border=\"0\">\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Health, dental, and vision insurance</li>\n<li>Remote friendly with WeWork access</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Unlimited PTO, shared downtime during the federal holiday calendar, and company-wide off time at the end of each year</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">401(k) match</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Lifestyle &amp; wellbeing stipends</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Salary top-up during military reserve duty</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Fully paid parental leave</li>\n<li data-stringify-indent=\"0\" data-stringify-border=\"0\">Child and pet care reimbursement during travel</li>\n</ul><div class=\"content-conclusion\"><div>Vannevar is an equal opportunity employer, and qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender perception or identity, national origin, age, marital status, protected veteran status, or disability status.</div>\n<div>&nbsp;</div>\n<div>We encourage candidates from all backgrounds to apply, even if you don't feel like you're a perfect fit. If you're passionate about contributing to our mission, we'd love to hear from you!</div>\n<div>&nbsp;</div>\n<div><strong>IMPORTANT NOTICE<br>We are committed to protecting the privacy of all applicants. Official emails from the company will come from an @vannevarlabs.com domain. Under no circumstances will a legitimate representative from our company contact you to request passwords, financial information, or other sensitive personal data. Please be vigilant of potential scams.</strong></div></div>",
+      "description_available": true,
+      "compensation": null,
+      "posted_at": "2026-10-14T12:22:25-04:00",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
     },
@@ -1063,7 +1147,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "known",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1119,7 +1203,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1259,7 +1343,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "technical_program_manager"
@@ -1399,7 +1483,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1455,7 +1539,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -1483,7 +1567,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1511,7 +1595,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1539,7 +1623,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1651,7 +1735,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1679,7 +1763,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1707,7 +1791,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "technical_program_manager"
@@ -1735,7 +1819,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design",
+        "product",
         "engineering"
       ],
       "roles": [
@@ -1793,7 +1877,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "technical_program_manager"
@@ -1933,7 +2017,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -1961,7 +2045,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -1989,7 +2073,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2017,7 +2101,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2034,6 +2118,34 @@
       "last_seen": "2026-10-14"
     },
     {
+      "id": "greenhouse:okta:8213755",
+      "title": "Senior Product Manager - Okta Identity Governance",
+      "company": "Okta",
+      "company_tier": "standard",
+      "industries": [
+        "cybersecurity"
+      ],
+      "url": "https://www.okta.com/company/careers/opportunity/8213755?gh_jid=8213755",
+      "source_ats": "greenhouse",
+      "company_relationship": "watchlist",
+      "umbrellas": [
+        "product"
+      ],
+      "roles": [
+        "product_manager"
+      ],
+      "level": "manager",
+      "location": "Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington; Washington, DC",
+      "remote": false,
+      "department": "Product Management-810",
+      "description_html": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p>Okta is the industry leader in Identity and Access Management, and Okta Identity Governance (OIG) is one of our fastest-growing products, helping thousands of customers maintain zero-standing privileges, automate access certifications, streamline lifecycle management, and meet their compliance obligations. We are seeking a Senior Product Manager who will be part of an exciting opportunity to take our identity governance product to the next level. Our vision is to enable everyone to safely use any technology using the Okta Identity Cloud. The ideal candidate will be someone with a strong technical background, and a willingness to learn and partner closely with engineers, architects, design, and other cross-functional product teams across Okta. Your primary responsibilities in these areas will include:</p>\n<ul>\n<li>Engage with customers to understand pain points with governance, compliance, and access management, and identify opportunities where Okta can help</li>\n<li>Define and execute the roadmap for the Okta Identity Governance platform</li>\n<li>Set product strategy and vision for your product area and evangelize the strategy to internal and external stakeholders</li>\n<li>Define the product roadmap with the right prioritization trade-offs needed to ensure you are able to execute the product vision</li>\n<li>Lead a scrum team of stellar engineers and deliver key features with high quality in the communicated timelines</li>\n<li>Be a thought leader for your product area, and stay on top of the latest innovations and competitive landscape</li>\n<li>Work with Product Marketing to clearly articulate Okta's differentiation versus market alternatives, and be a thought leader for the product area</li>\n</ul>\n<p><strong>Minimum Knowledge, Skills, and Abilities:</strong></p>\n<ul>\n<li>5+ years of product management experience, preferably in Enterprise SaaS or IaaS</li>\n<li>Developed a phased roadmap for complex or abstract projects, and executed the roadmap to deliver a product that customers loved</li>\n<li>Customer obsessed, have an owner mindset, and drive towards outcomes with curiosity and team spirit.</li>\n<li>Bachelor's degree or an MBA</li>\n</ul>\n<p><strong>Preferred Skills:</strong></p>\n<ul>\n<li>Familiar with Okta and how the Okta technology works for Identity Governance and Access Management</li>\n<li>Direct experience or practical knowledge of identity governance concepts such as access certifications, entitlement management, role-based access control (RBAC), and separation of duties, and familiarity with standards like SCIM and SAML is a plus</li>\n<li>Familiar with the competitive landscape in the identity governance space; especially around offerings such as SailPoint, Saviynt, Microsoft Entra ID Governance, and other IGA and PAM providers in the market</li>\n</ul>\n<p>#LI-MM</p>\n<p>#LI-Hybrid<br>P25929_3554727</p><div class=\"content-pay-transparency\"><div class=\"pay-input\"><div class=\"title\">The annual base salary range for this position for candidates located in the San Francisco Bay area is between:  </div><div class=\"pay-range\"><span>$189,000</span><span class=\"divider\">&mdash;</span><span>$260,000 USD</span></div></div><div class=\"pay-input\"><div class=\"description\"><p><span style=\"font-weight: 400;\">Below is the annual base salary range for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York and Washington. Your actual base salary will depend on factors such as your skills, qualifications, experience, and work location. In addition, Okta offers equity (where applicable), bonus, and benefits, including health, dental and vision insurance, 401(k), flexible spending account, and paid leave (including PTO and parental leave) in accordance with our applicable plans and policies. To learn more about our Total Rewards program please visit: </span><a href=\"https://rewards.okta.com/us\"><span style=\"font-weight: 400;\">https://rewards.okta.com/us</span></a><span style=\"font-weight: 400;\">.&nbsp;&nbsp;&nbsp;<br></span></p></div><div class=\"title\">The annual base salary range for this position for candidates located in California (excluding San Francisco Bay Area), Colorado, Illinois, New York, and Washington is between:</div><div class=\"pay-range\"><span>$169,000</span><span class=\"divider\">&mdash;</span><span>$232,000 USD</span></div></div></div><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p>\n<ul>\n<li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li>\n<li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li>\n<li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li>\n</ul>\n<p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
+      "description_available": true,
+      "compensation": null,
+      "posted_at": "2026-10-14T14:00:53-04:00",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    {
       "id": "greenhouse:okta:8137951",
       "title": "Senior Product Manager - Policies",
       "company": "Okta",
@@ -2045,7 +2157,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2073,7 +2185,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2101,7 +2213,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2129,7 +2241,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2157,7 +2269,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2185,7 +2297,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "product_manager"
@@ -2198,34 +2310,6 @@
       "description_available": true,
       "compensation": null,
       "posted_at": "2026-10-09T06:24:31-04:00",
-      "first_seen": "2026-10-14",
-      "last_seen": "2026-10-14"
-    },
-    {
-      "id": "greenhouse:okta:8242984",
-      "title": "Senior Site Reliability Engineer",
-      "company": "Okta",
-      "company_tier": "standard",
-      "industries": [
-        "cybersecurity"
-      ],
-      "url": "https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984",
-      "source_ats": "greenhouse",
-      "company_relationship": "watchlist",
-      "umbrellas": [
-        "engineering"
-      ],
-      "roles": [
-        "devops"
-      ],
-      "level": "senior",
-      "location": "Bengaluru, India",
-      "remote": false,
-      "department": "Tech Ops-610",
-      "description_html": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p class=\"p1\"><strong>The Engineering Opportunity</strong></p>\n<p class=\"p1\">We are looking for an experienced Senior Site Reliability Engineer to join Okta's Emerging Products Group (EPG). Our mission is to build highly reliable, scalable, and secure cloud services that our customers can trust. We embrace an automation-first mindset and continuously invest in platform engineering, observability, and operational excellence to enable our engineering teams to move quickly and safely.</p>\n<p class=\"p1\">This role is ideal for an experienced Site Reliability Engineer who enjoys solving complex technical challenges at scale, building automation, and improving the reliability of production systems. You will serve as a key contributor within the EPG SRE organization, partnering closely with software engineers, architects, and product teams to design, build, and operate world-class cloud services.</p>\n<p class=\"p2\"><strong>&nbsp;</strong></p>\n<p class=\"p1\"><strong>What You'll Be Doing</strong></p>\n<p class=\"p1\"><strong>Reliability &amp; Operations</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Design, build, and operate large-scale cloud infrastructure and production services.</li>\n<li class=\"li1\">Participate in an on-call rotation supporting highly available customer-facing systems.</li>\n<li class=\"li1\">Lead incident response efforts and drive post-incident reviews focused on systemic improvements.</li>\n<li class=\"li1\">Define, measure, and improve Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.</li>\n<li class=\"li1\">Partner with engineering teams to improve service availability, scalability, performance, and resilience.</li>\n<li class=\"li1\">Continuously improve observability through metrics, logging, tracing, dashboards, and alerting.</li>\n</ul>\n<p class=\"p1\"><strong>Engineering &amp; Automation</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Develop software, automation, and infrastructure using Go, Python, Terraform, and related technologies.</li>\n<li class=\"li1\">Eliminate operational toil through automation, tooling, and platform engineering.</li>\n<li class=\"li1\">Improve deployment safety and operational workflows through CI/CD and GitOps practices.</li>\n<li class=\"li1\">Collaborate on modernizing existing workloads and aligning them with evolving platform capabilities.</li>\n<li class=\"li1\">Build self-service platforms, operational guardrails, and automation that improve developer velocity while maintaining reliability and security.</li>\n</ul>\n<p class=\"p1\">&nbsp;</p>\n<p class=\"p1\"><strong>What We Are Looking For</strong></p>\n<p class=\"p1\"><strong>Technical Excellence</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Strong experience operating large-scale production services in AWS and/or GCP.</li>\n<li class=\"li1\">Deep expertise with Kubernetes in production environments.</li>\n<li class=\"li1\">Experience troubleshooting Kubernetes networking, storage, scheduling, scaling, and workload lifecycle issues.</li>\n<li class=\"li1\">Extensive experience with Infrastructure as Code technologies such as Terraform and Helm.</li>\n<li class=\"li1\">Strong software engineering skills in Golang and/or Python.</li>\n<li class=\"li1\">Experience building automation and internal engineering platforms.</li>\n<li class=\"li1\">Experience operating and troubleshooting distributed data platforms such as PostgreSQL, Redis, OpenSearch, MySQL, Cassandra, or similar technologies.</li>\n<li class=\"li1\">Strong understanding of cloud networking fundamentals including DNS, load balancing, ingress, TLS, service networking, and traffic management.</li>\n<li class=\"li1\">Experience with observability platforms, monitoring strategies, and production telemetry.</li>\n<li class=\"li1\">Experience with or strong interest in AI-assisted engineering and operational automation.</li>\n</ul>\n<p class=\"p1\"><strong>Operational Excellence</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Strong expertise operating customer-facing production systems.</li>\n<li class=\"li1\">Experience leading incident response and driving operational improvements.</li>\n<li class=\"li1\">Deep understanding of reliability engineering concepts including SLIs, SLOs, error budgets, and capacity planning.</li>\n<li class=\"li1\">Strong understanding of CI/CD pipelines, deployment strategies, and automation-first operational practices.</li>\n<li class=\"li1\">Proven ability to balance reliability, scalability, security, and engineering velocity.</li>\n</ul>\n<p class=\"p2\"><strong>&nbsp;</strong></p>\n<p class=\"p1\">#LI-Hybrid<br>#P25721</p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p>\n<ul>\n<li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li>\n<li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li>\n<li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li>\n</ul>\n<p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
-      "description_available": true,
-      "compensation": null,
-      "posted_at": "2026-10-01T01:47:26-04:00",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
     },
@@ -2254,6 +2338,62 @@
       "description_available": true,
       "compensation": null,
       "posted_at": "2026-09-21T12:43:00-04:00",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    {
+      "id": "greenhouse:okta:8015032",
+      "title": "Senior Site Reliability Engineer",
+      "company": "Okta",
+      "company_tier": "standard",
+      "industries": [
+        "cybersecurity"
+      ],
+      "url": "https://www.okta.com/company/careers/opportunity/8015032?gh_jid=8015032",
+      "source_ats": "greenhouse",
+      "company_relationship": "watchlist",
+      "umbrellas": [
+        "engineering"
+      ],
+      "roles": [
+        "devops"
+      ],
+      "level": "senior",
+      "location": "Bengaluru, India",
+      "remote": false,
+      "department": "Tech Ops-610",
+      "description_html": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><h3><strong>What You’ll Be Doing</strong></h3>\n<ul>\n<li>Design, build, and operate highly scalable, reliable, and secure infrastructure powering our production systems across AWS and GCP.</li>\n<li>Lead major reliability and modernization initiatives, including container platform migrations (e.g., ECS to EKS/GKE) and microservice enablement across multi-cloud environments.</li>\n<li>Serve as a technical authority in Kubernetes (EKS and GKE), cloud infrastructure (AWS and GCP), and modern CI/CD practices (GitOps, automation pipelines).</li>\n<li>Partner with development teams to architect and enable microservice-based applications, ensuring production readiness, scalability, and observability.</li>\n<li>Implement and manage infrastructure as code (Terraform, Ansible) to automate provisioning, scaling, and configuration management across multiple cloud providers.</li>\n<li>Drive improvements in observability, performance, and cost efficiency through robust monitoring, logging, and alerting systems that span AWS and GCP.</li>\n<li>Champion SRE best practices — defining SLOs/SLIs, conducting blameless postmortems, and continuously improving incident response.</li>\n<li>Lead complex technical projects from conception to completion, managing timelines, and technical dependencies across teams.</li>\n<li>Mentor engineers across teams, fostering a culture of reliability, automation, and continuous learning.</li>\n<li>Collaborate with security and compliance partners to ensure infrastructure adheres to best practices and standards (e.g., IAM Federation, Workload Identity).</li>\n<li>Participate in the on-call rotation, using incidents as learning opportunities to enhance systems and processes.</li>\n</ul>\n<h3>What You’ll Bring to the Role:</h3>\n<ul>\n<li>Strong hands-on experience architecting and operating cloud-native distributed systems (AWS and GCP).</li>\n<li>Deep expertise with Kubernetes (EKS and GKE) — design, provisioning, scaling, and advanced troubleshooting in production.</li>\n<li>Proven experience leading ECS to EKS/GKE migrations and driving microservice enablement initiatives at scale.</li>\n<li>Proficiency with Infrastructure as Code tools such as Terraform (multi-provider), Ansible, or CloudFormation.</li>\n<li>Solid coding and scripting ability in Python, Go, or Shell, with a focus on automation, tooling, and operational excellence.</li>\n<li>Advanced understanding of CI/CD pipelines (ArgoCD, GitLab CI, Spinnaker), Linux systems, and networking fundamentals (Direct Connect/Interconnect, DNS, routing, load balancing).</li>\n<li>Experience managing databases and caching systems (e.g., RDS/Cloud SQL, Redis/Memorystore, PostgreSQL, MySQL) in cloud environments.</li>\n<li>Hands-on experience with observability tools (Prometheus, Grafana, ELK, Loki, OpenTelemetry, Google Cloud Operations) for performance and reliability insights.</li>\n<li>Working knowledge of container security, secrets management (HashiCorp Vault, AWS Secrets Manager, Google Secret Manager), and compliance in production environments.</li>\n<li>Strong communication and problem-solving skills, with demonstrated success leading cross-team projects and mentoring peers.</li>\n</ul>\n<p><strong>Experience:</strong></p>\n<ul>\n<li>5+ years in SRE, DevOps, or Infrastructure Engineering roles.</li>\n<li>3–5 years of experience with Kubernetes (EKS/GKE) and related ecosystem tools (Helm, Karpenter, etc.) in production.</li>\n<li>3–5 years of experience with AWS and GCP.</li>\n<li>3–5 years using Terraform to manage multi-cloud infrastructure.</li>\n<li>5+ years of coding experience in Python, Go, or similar languages.</li>\n<li>Proven track record leading high-impact projects, specifically migration projects (ECS → EKS/GKE) and enabling microservice architectures.</li>\n<li>Experience implementing SLOs/SLIs, performing root cause analyses, and improving operational resilience.</li>\n<li>Prior work in SaaS or high-scale, cloud-native environments is a strong plus.</li>\n<li>Strong Linux and security fundamentals.</li>\n<li>Bachelor’s degree in Computer Science or equivalent hands-on experience.</li>\n</ul>\n<p>#LI_Hybrid.&nbsp;</p>\n<p>P18146_3474963</p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p>\n<ul>\n<li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li>\n<li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li>\n<li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li>\n</ul>\n<p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
+      "description_available": true,
+      "compensation": null,
+      "posted_at": "2026-09-28T04:14:49-04:00",
+      "first_seen": "2026-10-14",
+      "last_seen": "2026-10-14"
+    },
+    {
+      "id": "greenhouse:okta:8242984",
+      "title": "Senior Site Reliability Engineer",
+      "company": "Okta",
+      "company_tier": "standard",
+      "industries": [
+        "cybersecurity"
+      ],
+      "url": "https://www.okta.com/company/careers/opportunity/8242984?gh_jid=8242984",
+      "source_ats": "greenhouse",
+      "company_relationship": "watchlist",
+      "umbrellas": [
+        "engineering"
+      ],
+      "roles": [
+        "devops"
+      ],
+      "level": "senior",
+      "location": "Bengaluru, India",
+      "remote": false,
+      "department": "Tech Ops-610",
+      "description_html": "<div class=\"content-intro\"><p><strong>Secure Every Identity, from AI to Human<br><br></strong>Identity is the key to unlocking the potential of AI. Okta secures AI by building the trusted, neutral infrastructure that enables organizations to safely embrace this new era. This work requires a relentless drive to solve complex challenges with real-world stakes. We are looking for builders and owners who operate with speed and urgency and execute with excellence.<br><br>This is an opportunity to do career-defining work. We're all in on this mission. If you are too, let's talk.</p></div><p class=\"p1\"><strong>The Engineering Opportunity</strong></p>\n<p class=\"p1\">We are looking for an experienced Senior Site Reliability Engineer to join Okta's Emerging Products Group (EPG). Our mission is to build highly reliable, scalable, and secure cloud services that our customers can trust. We embrace an automation-first mindset and continuously invest in platform engineering, observability, and operational excellence to enable our engineering teams to move quickly and safely.</p>\n<p class=\"p1\">This role is ideal for an experienced Site Reliability Engineer who enjoys solving complex technical challenges at scale, building automation, and improving the reliability of production systems. You will serve as a key contributor within the EPG SRE organization, partnering closely with software engineers, architects, and product teams to design, build, and operate world-class cloud services.</p>\n<p class=\"p2\"><strong>&nbsp;</strong></p>\n<p class=\"p1\"><strong>What You'll Be Doing</strong></p>\n<p class=\"p1\"><strong>Reliability &amp; Operations</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Design, build, and operate large-scale cloud infrastructure and production services.</li>\n<li class=\"li1\">Participate in an on-call rotation supporting highly available customer-facing systems.</li>\n<li class=\"li1\">Lead incident response efforts and drive post-incident reviews focused on systemic improvements.</li>\n<li class=\"li1\">Define, measure, and improve Service Level Indicators (SLIs), Service Level Objectives (SLOs), and error budgets.</li>\n<li class=\"li1\">Partner with engineering teams to improve service availability, scalability, performance, and resilience.</li>\n<li class=\"li1\">Continuously improve observability through metrics, logging, tracing, dashboards, and alerting.</li>\n</ul>\n<p class=\"p1\"><strong>Engineering &amp; Automation</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Develop software, automation, and infrastructure using Go, Python, Terraform, and related technologies.</li>\n<li class=\"li1\">Eliminate operational toil through automation, tooling, and platform engineering.</li>\n<li class=\"li1\">Improve deployment safety and operational workflows through CI/CD and GitOps practices.</li>\n<li class=\"li1\">Collaborate on modernizing existing workloads and aligning them with evolving platform capabilities.</li>\n<li class=\"li1\">Build self-service platforms, operational guardrails, and automation that improve developer velocity while maintaining reliability and security.</li>\n</ul>\n<p class=\"p1\">&nbsp;</p>\n<p class=\"p1\"><strong>What We Are Looking For</strong></p>\n<p class=\"p1\"><strong>Technical Excellence</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Strong experience operating large-scale production services in AWS and/or GCP.</li>\n<li class=\"li1\">Deep expertise with Kubernetes in production environments.</li>\n<li class=\"li1\">Experience troubleshooting Kubernetes networking, storage, scheduling, scaling, and workload lifecycle issues.</li>\n<li class=\"li1\">Extensive experience with Infrastructure as Code technologies such as Terraform and Helm.</li>\n<li class=\"li1\">Strong software engineering skills in Golang and/or Python.</li>\n<li class=\"li1\">Experience building automation and internal engineering platforms.</li>\n<li class=\"li1\">Experience operating and troubleshooting distributed data platforms such as PostgreSQL, Redis, OpenSearch, MySQL, Cassandra, or similar technologies.</li>\n<li class=\"li1\">Strong understanding of cloud networking fundamentals including DNS, load balancing, ingress, TLS, service networking, and traffic management.</li>\n<li class=\"li1\">Experience with observability platforms, monitoring strategies, and production telemetry.</li>\n<li class=\"li1\">Experience with or strong interest in AI-assisted engineering and operational automation.</li>\n</ul>\n<p class=\"p1\"><strong>Operational Excellence</strong></p>\n<ul class=\"ul1\">\n<li class=\"li1\">Strong expertise operating customer-facing production systems.</li>\n<li class=\"li1\">Experience leading incident response and driving operational improvements.</li>\n<li class=\"li1\">Deep understanding of reliability engineering concepts including SLIs, SLOs, error budgets, and capacity planning.</li>\n<li class=\"li1\">Strong understanding of CI/CD pipelines, deployment strategies, and automation-first operational practices.</li>\n<li class=\"li1\">Proven ability to balance reliability, scalability, security, and engineering velocity.</li>\n</ul>\n<p class=\"p2\"><strong>&nbsp;</strong></p>\n<p class=\"p1\">#LI-Hybrid<br>#P25721</p><div class=\"content-conclusion\"><p><strong>The Okta Experience</strong></p>\n<ul>\n<li><a href=\"http://rewards.okta.com\">Supporting Your Well-Being</a>&nbsp;</li>\n<li><a href=\"https://www.okta.com/company/okta-for-good/\">Driving Social Impact&nbsp;</a></li>\n<li><a href=\"https://www.okta.com/company/talent-connection-community/\">Developing Talent and Fostering Connection + Community</a></li>\n</ul>\n<p>We are intentional about connection. Our global community, spanning over 20 offices worldwide, is united by a drive to innovate. Your journey begins with an immersive, in-person onboarding experience designed to accelerate your impact and connect you to our mission and team from day one.<br><br>Okta is an Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, ancestry, marital status, age, physical or mental disability, or status as a protected veteran. We also consider for employment qualified applicants with arrest and convictions records, consistent with applicable laws.<br><br>If reasonable accommodation is needed to complete any part of the job application, interview process, or onboarding please&nbsp;<a href=\"https://docs.google.com/forms/d/1EfiEYZrIyhA2X4Fijk0R3RKYOzNoS3wtvyM4nhbZnXE/edit\">use this Form</a> to request an accommodation.<br><br>Notice for New York City Applicants &amp; Employees: Okta may use Automated Employment Decision Tools (AEDT), as defined by New York City Local Law 144, that use artificial intelligence, machine learning, or other automated processes to assist in our recruitment and hiring process. In accordance with NYC Local Law 144, if you are an applicant or employee residing in New York City, please&nbsp;<a href=\"https://talent.okta.com/new-york-city-aedt-notice.html\">click here</a> to view our full NYC AEDT Notice.</p></div>",
+      "description_available": true,
+      "compensation": null,
+      "posted_at": "2026-10-01T01:47:26-04:00",
       "first_seen": "2026-10-14",
       "last_seen": "2026-10-14"
     },
@@ -2465,7 +2605,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "technical_program_manager"
@@ -2578,7 +2718,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design",
+        "product",
         "engineering"
       ],
       "roles": [
@@ -2608,7 +2748,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design",
+        "product",
         "engineering"
       ],
       "roles": [
@@ -2638,7 +2778,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "product"
       ],
       "roles": [
         "technical_program_manager"
@@ -2862,7 +3002,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -2890,7 +3030,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -2918,7 +3058,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -3254,7 +3394,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"
@@ -3312,7 +3452,7 @@
       "source_ats": "greenhouse",
       "company_relationship": "watchlist",
       "umbrellas": [
-        "product_design"
+        "design"
       ],
       "roles": [
         "product_designer"

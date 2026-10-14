@@ -1,9 +1,9 @@
 // shane.jobs — reads data/jobs.json, renders + filters client-side. No build step.
 
-const REL_LABELS = { worked: "worked", known: "know people", watchlist: "watchlist" };
 const LEVEL_ORDER = ["intern", "junior", "mid", "senior", "staff", "principal", "lead", "manager", "director", "vp"];
 const UMBRELLA_LABELS = {
-  product_design: "Product / Design",
+  product: "Product",
+  design: "Design",
   engineering: "Engineering",
   gtm_revenue: "GTM / Revenue",
   support: "Support",
@@ -53,8 +53,8 @@ function card(job) {
   a.href = safeUrl(job.url);
   a.target = "_blank";
   a.rel = "noopener noreferrer";
-  if (job.company_tier === "featured") a.classList.add("featured-card");
-  a.classList.add("rel-" + (job.company_relationship || "watchlist"));
+  const featured = job.company_tier === "featured";
+  if (featured) a.classList.add("featured-card");
 
   const top = el("div", "job-top");
   const left = el("div");
@@ -66,9 +66,8 @@ function card(job) {
   a.appendChild(top);
 
   const meta = el("div", "job-meta");
+  if (featured) meta.appendChild(el("span", "tag featured", "featured"));
   if (job.level) meta.appendChild(el("span", "tag level", job.level));
-  const rel = job.company_relationship || "watchlist";
-  meta.appendChild(el("span", "badge-rel rel-" + rel, REL_LABELS[rel] || rel));
   (job.industries || []).forEach((i) => meta.appendChild(el("span", "tag industry", i)));
   if (job.location) meta.appendChild(el("span", "tag", job.location));
   if (job.remote) meta.appendChild(el("span", "tag remote", "remote"));
@@ -122,7 +121,6 @@ function currentFilters() {
     umbrella: document.getElementById("f-umbrella").value,
     industry: document.getElementById("f-industry").value,
     level: document.getElementById("f-level").value,
-    rel: document.getElementById("f-rel").value,
     company: document.getElementById("f-company").value,
     remote: document.getElementById("f-remote").checked,
   };
@@ -133,7 +131,6 @@ function matches(job, f) {
   if (f.umbrella && !(job.umbrellas || []).includes(f.umbrella)) return false;
   if (f.industry && !(job.industries || []).includes(f.industry)) return false;
   if (f.level && job.level !== f.level) return false;
-  if (f.rel && job.company_relationship !== f.rel) return false;
   if (f.company && job.company !== f.company) return false;
   if (f.remote && !job.remote) return false;
   return true;
@@ -155,7 +152,6 @@ function restoreFromURL() {
   set("f-umbrella", "umbrella");
   set("f-industry", "industry");
   set("f-level", "level");
-  set("f-rel", "rel");
   set("f-company", "company");
   if (p.get("remote")) document.getElementById("f-remote").checked = true;
 }
@@ -170,15 +166,6 @@ function render() {
   document.getElementById("empty").hidden = filtered.length > 0;
   document.getElementById("count").textContent =
     `${filtered.length} role${filtered.length === 1 ? "" : "s"} · ${new Set(filtered.map((j) => j.company)).size} companies`;
-}
-
-function renderFeatured() {
-  const featured = state.jobs.filter((j) => j.company_tier === "featured");
-  if (!featured.length) return;
-  const sec = document.getElementById("featured");
-  const list = document.getElementById("featured-list");
-  featured.forEach((j) => list.appendChild(card(j)));
-  sec.hidden = false;
 }
 
 function renderMeta() {
@@ -205,16 +192,15 @@ async function init() {
 
   populateFilters();
   restoreFromURL();
-  renderFeatured();
   renderMeta();
   render();
 
-  ["q", "f-umbrella", "f-industry", "f-level", "f-rel", "f-company", "f-remote"].forEach((id) => {
+  ["q", "f-umbrella", "f-industry", "f-level", "f-company", "f-remote"].forEach((id) => {
     const node = document.getElementById(id);
     node.addEventListener(id === "q" ? "input" : "change", render);
   });
   document.getElementById("reset").addEventListener("click", () => {
-    ["q", "f-umbrella", "f-industry", "f-level", "f-rel", "f-company"].forEach((id) => {
+    ["q", "f-umbrella", "f-industry", "f-level", "f-company"].forEach((id) => {
       document.getElementById(id).value = "";
     });
     document.getElementById("f-remote").checked = false;

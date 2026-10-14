@@ -5,7 +5,7 @@
       "company": "Horizon3.ai",
       "ats": "ashby",
       "ok": true,
-      "count": 126,
+      "count": 127,
       "error": null,
       "matched": 14
     },
@@ -29,15 +29,15 @@
       "company": "Second Front Systems",
       "ats": "ashby",
       "ok": true,
-      "count": 18,
+      "count": 20,
       "error": null,
-      "matched": 2
+      "matched": 3
     },
     {
       "company": "Defense Unicorns",
       "ats": "greenhouse",
       "ok": true,
-      "count": 58,
+      "count": 60,
       "error": null,
       "matched": 12
     },
@@ -45,15 +45,15 @@
       "company": "Vannevar Labs",
       "ats": "greenhouse",
       "ok": true,
-      "count": 30,
+      "count": 31,
       "error": null,
-      "matched": 7
+      "matched": 8
     },
     {
       "company": "LeoLabs",
       "ats": "greenhouse",
       "ok": true,
-      "count": 27,
+      "count": 28,
       "error": null,
       "matched": 4
     },
@@ -61,7 +61,7 @@
       "company": "Endor Labs",
       "ats": "greenhouse",
       "ok": true,
-      "count": 33,
+      "count": 34,
       "error": null,
       "matched": 2
     },
@@ -69,7 +69,7 @@
       "company": "SecurityScorecard",
       "ats": "greenhouse",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null,
       "matched": 2
     },
@@ -77,15 +77,15 @@
       "company": "Okta",
       "ats": "greenhouse",
       "ok": true,
-      "count": 373,
+      "count": 374,
       "error": null,
-      "matched": 81
+      "matched": 82
     }
   ],
   "any_failures": false,
-  "generated_at": "2026-10-14T16:03:21.314132+00:00",
-  "prior_job_count": 0,
-  "fresh_job_count": 118,
-  "total_job_count": 118,
+  "generated_at": "2026-10-14T18:47:26.021955+00:00",
+  "prior_job_count": 118,
+  "fresh_job_count": 121,
+  "total_job_count": 123,
   "shrink_blocked": false
 }

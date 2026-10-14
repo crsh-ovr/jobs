@@ -15,9 +15,9 @@ UMBRELLAS, LEVELS = load_roles()
         ("Staff Full Stack Engineer", "engineering", "full_stack"),
         ("Principal DevEx Engineer", "engineering", "devops"),
         ("AI Engineer, Agentic Systems", "engineering", "agentic"),
-        ("Staff Product Manager", "product_design", "product_manager"),
-        ("Technical Program Manager", "product_design", "technical_program_manager"),
-        ("Senior Product Designer", "product_design", "product_designer"),
+        ("Staff Product Manager", "product", "product_manager"),
+        ("Technical Program Manager", "product", "technical_program_manager"),
+        ("Senior Product Designer", "design", "product_designer"),
         ("Technical Recruiter", "gtm_revenue", "recruiter"),
     ],
 )

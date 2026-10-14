@@ -31,18 +31,9 @@
   <main>
     <section class="intro">
       <p>
-        Hand-picked companies and specific roles in cybersecurity and adjacent sectors.
-        Scraped daily from each company's own job board. Ranked by how close they are to me:
-        <span class="rel rel-worked">worked</span> &gt;
-        <span class="rel rel-known">know people</span> &gt;
-        <span class="rel rel-watchlist">watchlist</span>.
+        Hand-picked companies and specific roles in cybersecurity and adjacent sectors,
+        scraped daily from each company's own job board.
       </p>
-    </section>
-
-    <!-- Featured block (data-driven: company_tier == featured) -->
-    <section id="featured" class="featured" hidden>
-      <h2 class="section-title">&#9733; featured</h2>
-      <div id="featured-list" class="job-list"></div>
     </section>
 
     <section class="controls" aria-label="Filters">
@@ -61,15 +52,6 @@
       <div class="control">
         <label for="f-level">level</label>
         <select id="f-level"><option value="">all levels</option></select>
-      </div>
-      <div class="control">
-        <label for="f-rel">relationship</label>
-        <select id="f-rel">
-          <option value="">all</option>
-          <option value="worked">worked</option>
-          <option value="known">know people</option>
-          <option value="watchlist">watchlist</option>
-        </select>
       </div>
       <div class="control">
         <label for="f-company">company</label>

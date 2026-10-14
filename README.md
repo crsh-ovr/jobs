@@ -16,7 +16,8 @@ Companion career guide: **[shane-tips-for-jobs](https://shane-tips-for-jobs.lova
 
 **Role umbrellas** (mirrors the career guide):
 
-- **Product / Design** — Product Manager, Technical Program Manager, Product Designer
+- **Product** — Product Manager, Technical Program Manager
+- **Design** — Product Designer
 - **Engineering** — Full Stack, Frontend, DevOps / CI-CD / DevEx, Agentic / AI Engineer
 - **GTM / Revenue** — Recruiter, Technical Recruiter
 

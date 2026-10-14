@@ -6,8 +6,8 @@
 # career_url: the career-guide section this umbrella deep-links to.
 
 umbrellas:
-  product_design:
-    label: "Product / Design"
+  product:
+    label: "Product"
     career_url: "https://shane-tips-for-jobs.lovable.app/"
     roles:
       product_manager:
@@ -18,6 +18,11 @@ umbrellas:
         label: "Technical Program Manager"
         include_keywords: ["technical program manager", "technical project manager", "program manager", "tpm"]
         exclude_keywords: ["marketing program", "partner program"]
+
+  design:
+    label: "Design"
+    career_url: "https://shane-tips-for-jobs.lovable.app/"
+    roles:
       product_designer:
         label: "Product Designer"
         include_keywords: ["product designer", "ux designer", "ui designer", "ux/ui", "ui/ux", "design lead", "head of design", "director of design", "principal designer", "staff designer"]
