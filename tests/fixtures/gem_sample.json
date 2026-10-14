@@ -1,0 +1,27 @@
+{
+  "job_posts": [
+    {
+      "id": "gem-1",
+      "title": "AI Engineer, Agentic Systems",
+      "location": { "name": "Remote" },
+      "url": "https://jobs.gem.com/acme/gem-1",
+      "description": "<p>Build agents.</p>",
+      "department": "Research",
+      "updated_at": "2026-10-08T00:00:00Z"
+    },
+    {
+      "id": "gem-2",
+      "title": "VP of Engineering",
+      "location": "Palo Alto, CA",
+      "url": "https://jobs.gem.com/acme/gem-2",
+      "description": "<p>Lead eng.</p>",
+      "department": "Engineering"
+    },
+    {
+      "id": "gem-3",
+      "title": "Executive Assistant",
+      "location": "Palo Alto, CA",
+      "url": "https://jobs.gem.com/acme/gem-3"
+    }
+  ]
+}

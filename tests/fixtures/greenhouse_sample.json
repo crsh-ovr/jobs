@@ -1,0 +1,21 @@
+{
+  "jobs": [
+    {
+      "id": 101,
+      "title": "DevOps Engineer",
+      "location": { "name": "Remote" },
+      "absolute_url": "https://boards.greenhouse.io/wiz/jobs/101",
+      "content": "&lt;p&gt;Run the pipelines &amp;amp; infra.&lt;/p&gt;",
+      "updated_at": "2026-10-09T12:00:00Z",
+      "departments": [{ "name": "Infrastructure" }]
+    },
+    {
+      "id": 102,
+      "title": "Product Marketing Manager",
+      "location": { "name": "Tel Aviv" },
+      "absolute_url": "https://boards.greenhouse.io/wiz/jobs/102",
+      "content": "&lt;p&gt;Messaging.&lt;/p&gt;",
+      "departments": [{ "name": "Marketing" }]
+    }
+  ]
+}

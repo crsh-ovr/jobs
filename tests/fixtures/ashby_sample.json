@@ -1,0 +1,41 @@
+{
+  "jobs": [
+    {
+      "id": "ash-1",
+      "title": "Senior Frontend Engineer",
+      "location": "Remote - US",
+      "isRemote": true,
+      "isListed": true,
+      "jobUrl": "https://jobs.ashbyhq.com/horizon3ai/ash-1",
+      "applyUrl": "https://jobs.ashbyhq.com/horizon3ai/ash-1/application",
+      "descriptionHtml": "<p>Build the UI.</p>",
+      "department": "Engineering",
+      "publishedAt": "2026-10-10T00:00:00Z",
+      "compensation": { "compensationTierSummary": "US$180k - US$220k" }
+    },
+    {
+      "id": "ash-2",
+      "title": "Staff Product Manager",
+      "location": "San Francisco, CA",
+      "isRemote": false,
+      "isListed": true,
+      "jobUrl": "https://jobs.ashbyhq.com/horizon3ai/ash-2",
+      "descriptionHtml": "<p>Own the roadmap.</p>",
+      "department": "Product"
+    },
+    {
+      "id": "ash-3",
+      "title": "Account Executive",
+      "location": "New York, NY",
+      "isListed": true,
+      "jobUrl": "https://jobs.ashbyhq.com/horizon3ai/ash-3",
+      "descriptionHtml": "<p>Sell.</p>"
+    },
+    {
+      "id": "ash-4",
+      "title": "Hidden Role",
+      "isListed": false,
+      "jobUrl": "https://jobs.ashbyhq.com/horizon3ai/ash-4"
+    }
+  ]
+}

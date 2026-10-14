@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>shane.jobs // curated cybersecurity roles</title>
+  <meta name="description" content="A curated, community-run job board for cybersecurity and adjacent roles. A personal project by Shane Quinlan. Not affiliated with any employer." />
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Always-on, non-negotiable disclaimer -->
+  <div class="disclaimer" role="note">
+    <strong>[ unaffiliated ]</strong> A personal, community-run project by Shane Quinlan.
+    Not affiliated with, endorsed by, or operated by Horizon3.ai or any company listed here.
+    Listings link to each company's official job board.
+  </div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="prompt">shane@jobs</span><span class="sep">:</span><span class="path">~/cyber</span><span class="sep">$</span>
+      <span class="brand-title">curated roles</span><span class="cursor">&#9608;</span>
+    </div>
+    <nav class="top-nav">
+      <a class="cta" href="https://shane-tips-for-jobs.lovable.app/" target="_blank" rel="noopener">
+        &gt; job hunting? read the field guide
+      </a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <p>
+        Hand-picked companies and specific roles in cybersecurity and adjacent sectors.
+        Scraped daily from each company's own job board. Ranked by how close they are to me:
+        <span class="rel rel-worked">worked</span> &gt;
+        <span class="rel rel-known">know people</span> &gt;
+        <span class="rel rel-watchlist">watchlist</span>.
+      </p>
+    </section>
+
+    <!-- Featured block (data-driven: company_tier == featured) -->
+    <section id="featured" class="featured" hidden>
+      <h2 class="section-title">&#9733; featured</h2>
+      <div id="featured-list" class="job-list"></div>
+    </section>
+
+    <section class="controls" aria-label="Filters">
+      <div class="control search">
+        <label for="q">search</label>
+        <input id="q" type="search" placeholder="title or company..." autocomplete="off" />
+      </div>
+      <div class="control">
+        <label for="f-umbrella">role</label>
+        <select id="f-umbrella"><option value="">all roles</option></select>
+      </div>
+      <div class="control">
+        <label for="f-industry">industry</label>
+        <select id="f-industry"><option value="">all industries</option></select>
+      </div>
+      <div class="control">
+        <label for="f-level">level</label>
+        <select id="f-level"><option value="">all levels</option></select>
+      </div>
+      <div class="control">
+        <label for="f-rel">relationship</label>
+        <select id="f-rel">
+          <option value="">all</option>
+          <option value="worked">worked</option>
+          <option value="known">know people</option>
+          <option value="watchlist">watchlist</option>
+        </select>
+      </div>
+      <div class="control">
+        <label for="f-company">company</label>
+        <select id="f-company"><option value="">all companies</option></select>
+      </div>
+      <div class="control checkbox">
+        <label><input id="f-remote" type="checkbox" /> remote only</label>
+      </div>
+      <button id="reset" type="button" class="reset">reset</button>
+    </section>
+
+    <p id="count" class="count" aria-live="polite"></p>
+
+    <section id="results" class="results">
+      <div id="job-list" class="job-list"></div>
+      <p id="empty" class="empty" hidden>no roles match these filters.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-col">
+      <h3>more boards &amp; resources</h3>
+      <ul>
+        <li><a href="https://shane-tips-for-jobs.lovable.app/" target="_blank" rel="noopener">shane's job-hunt field guide</a></li>
+        <li><a href="https://jobs.8vc.com/jobs" target="_blank" rel="noopener">8VC portfolio jobs</a></li>
+        <li><a href="https://www.ycombinator.com/jobs" target="_blank" rel="noopener">Y Combinator jobs</a></li>
+        <li><a href="https://github.com/crsh-ovr/jobs" target="_blank" rel="noopener">this project on GitHub</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h3>about</h3>
+      <p>
+        Curated by Shane Quinlan for the community. Open source (MIT). Want your company or a
+        role added? <a href="https://github.com/crsh-ovr/jobs/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">open a PR</a>.
+      </p>
+      <p id="meta" class="meta"></p>
+    </div>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>

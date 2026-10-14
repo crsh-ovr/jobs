@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "uuid": "rip-1",
+      "name": "Principal DevEx Engineer",
+      "url": "https://ats.rippling.com/acme/jobs/rip-1",
+      "location": { "label": "Remote - US" },
+      "department": "Engineering"
+    },
+    {
+      "uuid": "rip-2",
+      "name": "Director of Product",
+      "url": "https://ats.rippling.com/acme/jobs/rip-2",
+      "location": "Boston, MA",
+      "department": "Product"
+    },
+    {
+      "uuid": "rip-3",
+      "name": "Customer Success Manager",
+      "url": "https://ats.rippling.com/acme/jobs/rip-3",
+      "location": "Boston, MA"
+    }
+  ]
+}

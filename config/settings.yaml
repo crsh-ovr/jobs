@@ -1,0 +1,19 @@
+http:
+  timeout_seconds: 15
+  max_retries: 2
+  backoff_seconds: 2.0
+  politeness_delay_seconds: 1.0
+  user_agent: "shanes-jobs-bot/1.0 (+https://github.com/crsh-ovr/jobs; personal community project)"
+
+adapters:
+  getro:
+    enabled: false   # stretch; requires GETRO_API_KEY secret
+
+output:
+  jobs_path: "data/jobs.json"
+  meta_path: "data/meta.json"
+  # Drop jobs not seen in this many days (dead-listing aging).
+  stale_after_days: 30
+  # If total scraped jobs drop by more than this fraction vs the prior file, skip the
+  # write and flag it (guards against mass upstream failure publishing an empty board).
+  max_shrink_fraction: 0.8

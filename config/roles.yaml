@@ -1,0 +1,77 @@
+# Role umbrellas mirror the career guide (shane-tips-for-jobs).
+# A posting matches a role if any include_keyword is in the normalized title AND no
+# exclude_keyword is. A posting may match multiple umbrellas/roles. Matching is
+# case-insensitive over a lowercased, whitespace-normalized title.
+#
+# career_url: the career-guide section this umbrella deep-links to.
+
+umbrellas:
+  product_design:
+    label: "Product / Design"
+    career_url: "https://shane-tips-for-jobs.lovable.app/"
+    roles:
+      product_manager:
+        label: "Product Manager"
+        include_keywords: ["product manager", "product owner", "group product manager", "director of product", "vp of product", "head of product", "chief product officer"]
+        exclude_keywords: ["product marketing", "sales", "product support"]
+      technical_program_manager:
+        label: "Technical Program Manager"
+        include_keywords: ["technical program manager", "technical project manager", "program manager", "tpm"]
+        exclude_keywords: ["marketing program", "partner program"]
+      product_designer:
+        label: "Product Designer"
+        include_keywords: ["product designer", "ux designer", "ui designer", "ux/ui", "ui/ux", "design lead", "head of design", "director of design", "principal designer", "staff designer"]
+        exclude_keywords: ["graphic designer", "marketing designer", "brand designer"]
+
+  engineering:
+    label: "Engineering"
+    career_url: "https://shane-tips-for-jobs.lovable.app/"
+    roles:
+      full_stack:
+        label: "Full Stack Engineer"
+        include_keywords: ["full stack", "full-stack", "fullstack"]
+        exclude_keywords: []
+      frontend:
+        label: "Frontend Engineer"
+        include_keywords: ["frontend", "front end", "front-end", "ui engineer", "ui software engineer"]
+        exclude_keywords: []
+      devops:
+        label: "DevOps / CI-CD / DevEx"
+        include_keywords: ["devops", "ci/cd", "ci cd", "devex", "developer experience", "platform engineer", "platform engineering", "site reliability", "sre", "infrastructure engineer"]
+        exclude_keywords: []
+      agentic:
+        label: "Agentic / AI Engineer"
+        include_keywords: ["agentic", "ai engineer", "ml engineer", "machine learning engineer", "applied ai", "applied ml", "llm engineer", "ai software engineer", "gen ai", "generative ai"]
+        exclude_keywords: ["ai sales", "ai marketing"]
+
+  gtm_revenue:
+    label: "GTM / Revenue"
+    career_url: "https://shane-tips-for-jobs.lovable.app/"
+    roles:
+      recruiter:
+        label: "Recruiter"
+        include_keywords: ["recruiter", "technical recruiter", "talent acquisition", "sourcer", "recruiting"]
+        exclude_keywords: ["recruiting coordinator operations"]
+
+  support:
+    label: "Support"
+    career_url: "https://shane-tips-for-jobs.lovable.app/"
+    roles: {}
+
+# Level detection tags each posting intern -> VP. Levels TAG, they do not exclude.
+# Order is low -> high; the highest matched level wins. Keywords are matched against the
+# title padded with spaces, so " i " / " ii " match whole tokens, not substrings.
+levels:
+  order: [intern, junior, mid, senior, staff, principal, lead, manager, director, vp]
+  detection:
+    intern: ["intern", "internship", "co-op"]
+    junior: ["junior", "jr.", "jr ", "associate", "entry level", "entry-level", "early career", " i "]
+    mid: [" ii ", "mid-level", "mid level"]
+    senior: ["senior", "sr.", "sr ", "snr", " iii ", " iv "]
+    staff: ["staff"]
+    principal: ["principal", "distinguished"]
+    lead: ["lead", "tech lead", "team lead"]
+    manager: ["manager", "mgr", "head of", "m2"]
+    director: ["director", "sr. director", "senior director"]
+    vp: ["vp", "vice president", "svp", "evp", "chief"]
+  default: mid

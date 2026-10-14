@@ -1,0 +1,26 @@
+[
+  {
+    "id": "lev-1",
+    "text": "Staff Full Stack Engineer",
+    "categories": { "location": "Remote", "team": "Platform" },
+    "workplaceType": "remote",
+    "hostedUrl": "https://jobs.lever.co/chainguard/lev-1",
+    "applyUrl": "https://jobs.lever.co/chainguard/lev-1/apply",
+    "description": "<p>Ship features end to end.</p>",
+    "createdAt": 1760054400000
+  },
+  {
+    "id": "lev-2",
+    "text": "Technical Recruiter",
+    "categories": { "location": "Austin, TX", "team": "People" },
+    "workplaceType": "onsite",
+    "hostedUrl": "https://jobs.lever.co/chainguard/lev-2",
+    "description": "<p>Hire engineers.</p>"
+  },
+  {
+    "id": "lev-3",
+    "text": "Office Manager",
+    "categories": { "location": "Austin, TX" },
+    "hostedUrl": "https://jobs.lever.co/chainguard/lev-3"
+  }
+]

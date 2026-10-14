@@ -1,0 +1,96 @@
+# Vetted company allowlist. Adding a company = one PR editing this file.
+# See CONTRIBUTING.md for how to find the ATS + identifier.
+#
+# Fields:
+#   name         display name (required)
+#   ats          adapter key: ashby | greenhouse | lever | rippling | gem | getro (required)
+#   identifier   the board slug/token for that ATS (required; case-sensitive for Ashby)
+#   industry     one or more of: cybersecurity, deftech, cspm, finops, grc (required)
+#   tier         featured | standard   (featured pins to the top; default standard)
+#   relationship worked | known | watchlist  (Shane's affinity bucket; orders the board)
+#   homepage     optional company URL
+#
+# Every entry below was verified by curling the company's live public board.
+
+companies:
+  # --- worked (places Shane has worked) ---
+  - name: "Horizon3.ai"
+    ats: ashby
+    identifier: "horizon3ai"
+    industry: [cybersecurity, deftech]
+    tier: featured
+    relationship: worked
+    homepage: "https://horizon3.ai"
+
+  - name: "Kion"
+    ats: rippling
+    identifier: "kion"
+    industry: [finops, cspm, grc]
+    relationship: worked
+    homepage: "https://kion.io"
+
+  - name: "Rise8"
+    ats: greenhouse
+    identifier: "rise8"
+    industry: [deftech]
+    relationship: worked
+    homepage: "https://rise8.us"
+
+  # --- known (places Shane knows people) ---
+  - name: "Second Front Systems"
+    ats: ashby
+    identifier: "Second-Front-Systems"   # Ashby slug is case-sensitive
+    industry: [deftech]
+    relationship: known
+    homepage: "https://secondfront.com"
+
+  - name: "Defense Unicorns"
+    ats: greenhouse
+    identifier: "defenseunicorns"   # the board linked from their careers page
+    industry: [deftech]
+    relationship: known
+    homepage: "https://www.defenseunicorns.com"
+
+  - name: "Vannevar Labs"
+    ats: greenhouse
+    identifier: "vannevarlabs"
+    industry: [deftech]
+    relationship: known
+    homepage: "https://www.vannevarlabs.com"
+
+  - name: "LeoLabs"
+    ats: greenhouse
+    identifier: "leolabsinc"
+    industry: [deftech]
+    relationship: known
+    homepage: "https://leolabs.space"
+
+  # --- watchlist (places Shane wants to include) ---
+  - name: "Endor Labs"
+    ats: greenhouse
+    identifier: "endorlabs"
+    industry: [cybersecurity]
+    relationship: watchlist
+    homepage: "https://www.endorlabs.com"
+
+  - name: "SecurityScorecard"
+    ats: greenhouse
+    identifier: "securityscorecard"
+    industry: [cybersecurity, grc]
+    relationship: watchlist
+    homepage: "https://securityscorecard.com"
+
+  - name: "Okta"
+    ats: greenhouse
+    identifier: "okta"
+    industry: [cybersecurity]
+    relationship: watchlist
+    homepage: "https://www.okta.com"
+
+# Considered but not yet supported (no supported public ATS board found). Revisit if we
+# add an adapter for the noted platform:
+#   Lyntris   — JobBoardHQ (lyntris.jobboardhq.com)
+#   Ntrepid   — iCIMS (careers-ntrepidcorp.icims.com)
+#   Aikido    — Recruitee (aikidosecurity.recruitee.com)
+#   Rapid7    — custom careers portal + Workday
+#   Alantra   — custom site (financial advisory; industry vocab is a poor fit)
