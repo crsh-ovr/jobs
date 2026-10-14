@@ -43,7 +43,7 @@ def merge_and_write(
     meta_path: Path,
     stale_after_days: int = 30,
     max_shrink_fraction: float = 0.8,
-    active_prefixes: set[str] | None = None,
+    retain_prefixes: set[str] | None = None,
     today: str | None = None,
 ) -> dict:
     """Merge first_seen/last_seen from the prior file, age out stale jobs, and write.
@@ -65,16 +65,17 @@ def merge_and_write(
         d["last_seen"] = today
         current[job.id] = d
 
-    # Retain recently-seen prior jobs whose source failed this run, so a one-day outage
-    # does not wipe a company. Only retain jobs whose company is STILL in the allowlist
-    # (so removing a company drops its jobs immediately, not after the staleness window).
-    # Drop anything past the staleness window.
+    # Retain recently-seen prior jobs ONLY for companies whose adapter FAILED this run, so
+    # a one-day board outage does not wipe a company. When an adapter succeeds, any prior
+    # job it no longer returns was genuinely removed or filtered out (e.g. non-US) and is
+    # dropped. retain_prefixes is the set of "{ats}:{identifier}:" for failed companies;
+    # None means retain all recent prior jobs (used only in tests). Drop past the window.
     cutoff = (datetime.now(timezone.utc).date() - timedelta(days=stale_after_days)).isoformat()
     for jid, old in prior_by_id.items():
         if jid in current:
             continue
-        if active_prefixes is not None and not any(jid.startswith(p) for p in active_prefixes):
-            continue  # company no longer in the allowlist
+        if retain_prefixes is not None and not any(jid.startswith(p) for p in retain_prefixes):
+            continue  # adapter succeeded (or company removed) -> do not resurrect
         last_seen = old.get("last_seen") or old.get("first_seen") or "1970-01-01"
         if last_seen >= cutoff:
             current[jid] = old  # keep as-is; last_seen not refreshed

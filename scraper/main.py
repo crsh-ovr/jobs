@@ -10,6 +10,7 @@ from .adapters.base import HTTPClient
 from .adapters.registry import KNOWN_ATS, get_adapter
 from .config_loader import load_companies, load_roles, load_settings
 from .dedup import dedup
+from .location import is_us
 from .matching import apply_matching
 from .models import Company, Job
 from .writer import merge_and_write
@@ -52,6 +53,7 @@ def run() -> int:
 
     all_matched: list[Job] = []
     adapter_status: list[dict] = []
+    retain_prefixes: set[str] = set()  # companies whose adapter failed -> keep prior jobs
 
     for company in companies:
         if company.ats == "getro" and not settings.getro_enabled:
@@ -68,19 +70,30 @@ def run() -> int:
             continue
 
         raw_jobs, status = scrape_company(company, client)
+        if not status["ok"]:
+            retain_prefixes.add(f"{company.ats}:{company.identifier}:")
         matched = [j for j in (apply_matching(j, umbrellas, levels) for j in raw_jobs) if j]
         status["matched"] = len(matched)
+        if settings.us_only:
+            kept = [
+                j for j in matched
+                if is_us(j.location, include_unknown=settings.include_unknown_location)
+            ]
+            status["dropped_non_us"] = len(matched) - len(kept)
+            matched = kept
         adapter_status.append(status)
         all_matched.extend(matched)
-        log.info("%s: %d fetched, %d matched", company.name, status["count"], len(matched))
+        log.info("%s: %d fetched, %d kept", company.name, status["count"], len(matched))
 
     deduped = dedup(all_matched)
-    log.info("Total: %d matched, %d after dedup", len(all_matched), len(deduped))
+    log.info("Total: %d kept, %d after dedup", len(all_matched), len(deduped))
 
     meta = {
         "companies": len(companies),
         "adapters": adapter_status,
         "any_failures": any(not s["ok"] for s in adapter_status),
+        "us_only": settings.us_only,
+        "dropped_non_us": sum(s.get("dropped_non_us", 0) for s in adapter_status),
     }
     result = merge_and_write(
         deduped,
@@ -89,7 +102,7 @@ def run() -> int:
         meta_path=ROOT / settings.meta_path,
         stale_after_days=settings.stale_after_days,
         max_shrink_fraction=settings.max_shrink_fraction,
-        active_prefixes={f"{c.ats}:{c.identifier}:" for c in companies},
+        retain_prefixes=retain_prefixes,
     )
 
     if result.get("shrink_blocked"):

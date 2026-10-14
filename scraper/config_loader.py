@@ -28,6 +28,8 @@ class Settings:
     meta_path: str
     stale_after_days: int
     max_shrink_fraction: float
+    us_only: bool
+    include_unknown_location: bool
 
 
 def _load_yaml(path: Path) -> dict:
@@ -133,6 +135,7 @@ def load_settings(path: Path | None = None) -> Settings:
     data = _load_yaml(path)
     http = data.get("http", {})
     output = data.get("output", {})
+    filters = data.get("filters", {}) or {}
     getro = (data.get("adapters", {}) or {}).get("getro", {}) or {}
     return Settings(
         timeout_seconds=float(http.get("timeout_seconds", 15)),
@@ -145,4 +148,6 @@ def load_settings(path: Path | None = None) -> Settings:
         meta_path=str(output.get("meta_path", "data/meta.json")),
         stale_after_days=int(output.get("stale_after_days", 30)),
         max_shrink_fraction=float(output.get("max_shrink_fraction", 0.8)),
+        us_only=bool(filters.get("us_only", True)),
+        include_unknown_location=bool(filters.get("include_unknown_location", True)),
     )

@@ -1,6 +1,7 @@
-# Shane's Cybersecurity Job List
+# Shane's Job List
 
-A curated, community-run job board for cybersecurity and adjacent sectors. It tracks a
+A curated, community-run US job board across the sectors Shane has worked in:
+cybersecurity, defense tech, cloud security (CSPM), FinOps, and GRC. It tracks a
 hand-picked allowlist of vetted companies and surfaces specific roles across all levels
 (IC through VP) using the companies' own public job-board APIs. A scraper runs daily via
 GitHub Actions and the site is served as static files from GitHub Pages.

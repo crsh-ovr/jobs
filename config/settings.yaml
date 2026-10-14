@@ -9,6 +9,13 @@ adapters:
   getro:
     enabled: false   # stretch; requires GETRO_API_KEY secret
 
+filters:
+  # Keep only roles hiring in the US. A role that also hires elsewhere is kept as long as
+  # it hires in the US. Ambiguous/blank locations (often a bare "Remote" on US companies)
+  # are kept when include_unknown_location is true.
+  us_only: true
+  include_unknown_location: true
+
 output:
   jobs_path: "data/jobs.json"
   meta_path: "data/meta.json"

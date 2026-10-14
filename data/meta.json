@@ -7,7 +7,8 @@
       "ok": true,
       "count": 127,
       "error": null,
-      "matched": 14
+      "matched": 14,
+      "dropped_non_us": 0
     },
     {
       "company": "Kion",
@@ -15,7 +16,8 @@
       "ok": true,
       "count": 3,
       "error": null,
-      "matched": 0
+      "matched": 0,
+      "dropped_non_us": 0
     },
     {
       "company": "Rise8",
@@ -23,7 +25,8 @@
       "ok": true,
       "count": 8,
       "error": null,
-      "matched": 1
+      "matched": 1,
+      "dropped_non_us": 0
     },
     {
       "company": "Second Front Systems",
@@ -31,7 +34,8 @@
       "ok": true,
       "count": 20,
       "error": null,
-      "matched": 3
+      "matched": 3,
+      "dropped_non_us": 1
     },
     {
       "company": "Defense Unicorns",
@@ -39,7 +43,8 @@
       "ok": true,
       "count": 60,
       "error": null,
-      "matched": 12
+      "matched": 12,
+      "dropped_non_us": 0
     },
     {
       "company": "Vannevar Labs",
@@ -47,7 +52,8 @@
       "ok": true,
       "count": 31,
       "error": null,
-      "matched": 8
+      "matched": 8,
+      "dropped_non_us": 0
     },
     {
       "company": "LeoLabs",
@@ -55,7 +61,8 @@
       "ok": true,
       "count": 28,
       "error": null,
-      "matched": 4
+      "matched": 4,
+      "dropped_non_us": 0
     },
     {
       "company": "Endor Labs",
@@ -63,7 +70,8 @@
       "ok": true,
       "count": 34,
       "error": null,
-      "matched": 2
+      "matched": 2,
+      "dropped_non_us": 1
     },
     {
       "company": "SecurityScorecard",
@@ -71,7 +79,8 @@
       "ok": true,
       "count": 12,
       "error": null,
-      "matched": 2
+      "matched": 2,
+      "dropped_non_us": 0
     },
     {
       "company": "Okta",
@@ -79,13 +88,16 @@
       "ok": true,
       "count": 374,
       "error": null,
-      "matched": 82
+      "matched": 82,
+      "dropped_non_us": 55
     }
   ],
   "any_failures": false,
-  "generated_at": "2026-10-14T18:47:26.021955+00:00",
-  "prior_job_count": 118,
-  "fresh_job_count": 121,
-  "total_job_count": 123,
+  "us_only": true,
+  "dropped_non_us": 57,
+  "generated_at": "2026-10-14T19:07:30.345346+00:00",
+  "prior_job_count": 0,
+  "fresh_job_count": 69,
+  "total_job_count": 69,
   "shrink_blocked": false
 }
