@@ -23,7 +23,7 @@ allowlist. That is a single-file change to `config/companies.yaml`.
    - name: "Acme Security"
      ats: greenhouse
      identifier: "acme"
-     industry: [cybersecurity, cspm]   # one or more of: cybersecurity, deftech, cspm, finops, grc
+     industry: [cybersecurity, cspm]   # one or more of: cybersecurity, deftech, cspm, finops, grc, healthtech
      tier: standard                     # "featured" is reserved; default to "standard"
      homepage: "https://acme.example"   # optional
    ```

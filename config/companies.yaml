@@ -5,7 +5,7 @@
 #   name         display name (required)
 #   ats          adapter key: ashby | greenhouse | lever | rippling | gem | getro (required)
 #   identifier   the board slug/token for that ATS (required; case-sensitive for Ashby)
-#   industry     one or more of: cybersecurity, deftech, cspm, finops, grc (required)
+#   industry     one or more of: cybersecurity, deftech, cspm, finops, grc, healthtech (required)
 #   tier         featured | standard   (featured pins to the top; default standard)
 #   relationship worked | known | watchlist  (Shane's affinity bucket; orders the board)
 #   homepage     optional company URL
@@ -65,32 +65,399 @@ companies:
     relationship: known
     homepage: "https://leolabs.space"
 
-  # --- watchlist (places Shane wants to include) ---
+  # --- watchlist :: cybersecurity ---
   - name: "Endor Labs"
     ats: greenhouse
     identifier: "endorlabs"
     industry: [cybersecurity]
     relationship: watchlist
     homepage: "https://www.endorlabs.com"
-
   - name: "SecurityScorecard"
     ats: greenhouse
     identifier: "securityscorecard"
     industry: [cybersecurity, grc]
     relationship: watchlist
     homepage: "https://securityscorecard.com"
-
   - name: "Okta"
     ats: greenhouse
     identifier: "okta"
     industry: [cybersecurity]
     relationship: watchlist
     homepage: "https://www.okta.com"
+  - name: "Huntress"
+    ats: greenhouse
+    identifier: "huntress"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Keeper Security"
+    ats: greenhouse
+    identifier: "keepersecurity"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "OPSWAT"
+    ats: greenhouse
+    identifier: "opswat"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Doppel"
+    ats: ashby
+    identifier: "doppel"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "XBOW"
+    ats: ashby
+    identifier: "xbowcareers"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Method Security"
+    ats: ashby
+    identifier: "method.security"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Wraithwatch"
+    ats: ashby
+    identifier: "wraithwatch"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Galvanick"
+    ats: lever
+    identifier: "galvanick"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Safe Security"
+    ats: lever
+    identifier: "safe"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "UltraViolet Cyber"
+    ats: lever
+    identifier: "uvcyber"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Spin.AI"
+    ats: lever
+    identifier: "spinai"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Abnormal AI"
+    ats: greenhouse
+    identifier: "abnormalsecurity"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Chainguard"
+    ats: greenhouse
+    identifier: "chainguard"
+    industry: [cybersecurity, deftech]
+    relationship: watchlist
+  - name: "Vanta"
+    ats: ashby
+    identifier: "vanta"
+    industry: [cybersecurity, grc]
+    relationship: watchlist
+  - name: "1Password"
+    ats: ashby
+    identifier: "1password"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Tailscale"
+    ats: greenhouse
+    identifier: "tailscale"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Axonius"
+    ats: greenhouse
+    identifier: "axonius"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Semgrep"
+    ats: ashby
+    identifier: "semgrep"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Teleport"
+    ats: ashby
+    identifier: "goteleport"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Socket"
+    ats: ashby
+    identifier: "socket"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Material Security"
+    ats: ashby
+    identifier: "materialsecurity"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Persona"
+    ats: ashby
+    identifier: "persona"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Adaptive Security"
+    ats: ashby
+    identifier: "adaptivesecurity"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "HackerOne"
+    ats: ashby
+    identifier: "hackerone"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Corelight"
+    ats: greenhouse
+    identifier: "corelight"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Cribl"
+    ats: greenhouse
+    identifier: "cribl"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Socure"
+    ats: ashby
+    identifier: "socure"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Censys"
+    ats: greenhouse
+    identifier: "censys"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Gray Swan AI"
+    ats: ashby
+    identifier: "Gray Swan AI"   # Ashby slug only resolves URL-encoded with spaces
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Tracebit"
+    ats: ashby
+    identifier: "tracebit"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Cloudflare"
+    ats: greenhouse
+    identifier: "cloudflare"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Rubrik"
+    ats: greenhouse
+    identifier: "rubrik"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "Fastly"
+    ats: greenhouse
+    identifier: "fastly"
+    industry: [cybersecurity]
+    relationship: watchlist
+  - name: "SentinelOne"
+    ats: greenhouse
+    identifier: "sentinellabs"
+    industry: [cybersecurity]
+    relationship: watchlist
 
-# Considered but not yet supported (no supported public ATS board found). Revisit if we
-# add an adapter for the noted platform:
-#   Lyntris   — JobBoardHQ (lyntris.jobboardhq.com)
-#   Ntrepid   — iCIMS (careers-ntrepidcorp.icims.com)
-#   Aikido    — Recruitee (aikidosecurity.recruitee.com)
-#   Rapid7    — custom careers portal + Workday
-#   Alantra   — custom site (financial advisory; industry vocab is a poor fit)
+  # --- watchlist :: deftech ---
+  - name: "Mach Industries"
+    ats: greenhouse
+    identifier: "machindustries"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "True Anomaly"
+    ats: greenhouse
+    identifier: "trueanomalyinc"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Vatn Systems"
+    ats: greenhouse
+    identifier: "vatnsystems"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Skydio"
+    ats: ashby
+    identifier: "skydio"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Applied Intuition"
+    ats: ashby
+    identifier: "applied"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Harmattan AI"
+    ats: ashby
+    identifier: "harmattan-ai"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "BRINC"
+    ats: ashby
+    identifier: "brinc"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "HavocAI"
+    ats: ashby
+    identifier: "havocai"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "9 Mothers"
+    ats: ashby
+    identifier: "9-mothers"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Shield AI"
+    ats: lever
+    identifier: "shieldai"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Skyways"
+    ats: lever
+    identifier: "skyways"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Elroy Air"
+    ats: lever
+    identifier: "elroyair"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Enigma Aerospace"
+    ats: lever
+    identifier: "crgo"
+    industry: [deftech]
+    relationship: watchlist
+  - name: "Helsing"
+    ats: greenhouse
+    identifier: "helsing"
+    industry: [deftech]
+    relationship: watchlist
+
+  # --- watchlist :: healthtech ---
+  - name: "Abridge"
+    ats: ashby
+    identifier: "abridge"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Ambience Healthcare"
+    ats: ashby
+    identifier: "ambiencehealthcare"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Commure"
+    ats: ashby
+    identifier: "commure"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Bayesian Health"
+    ats: ashby
+    identifier: "bayesianhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "HealthLeap"
+    ats: ashby
+    identifier: "healthleap"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Hello Patient"
+    ats: ashby
+    identifier: "hellopatient"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Kivo Health"
+    ats: ashby
+    identifier: "kivo-health"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "AcuityMD"
+    ats: greenhouse
+    identifier: "acuitymd"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Twin Health"
+    ats: greenhouse
+    identifier: "twinhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Form Health"
+    ats: greenhouse
+    identifier: "formhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Ophelia"
+    ats: greenhouse
+    identifier: "ophelia"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Jukebox Health"
+    ats: greenhouse
+    identifier: "jukeboxhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Daymark Health"
+    ats: greenhouse
+    identifier: "daymarkhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Medsien"
+    ats: greenhouse
+    identifier: "medsien"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Zocdoc"
+    ats: greenhouse
+    identifier: "zocdoc"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Maven Clinic"
+    ats: greenhouse
+    identifier: "mavenclinic"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Komodo Health"
+    ats: greenhouse
+    identifier: "komodohealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Garner Health"
+    ats: greenhouse
+    identifier: "garnerhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Included Health"
+    ats: lever
+    identifier: "includedhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Talkiatry"
+    ats: ashby
+    identifier: "talkiatry"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Lyra Health"
+    ats: lever
+    identifier: "lyrahealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Candid Health"
+    ats: ashby
+    identifier: "candidhealth"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Tennr"
+    ats: ashby
+    identifier: "tennr"
+    industry: [healthtech]
+    relationship: watchlist
+  - name: "Cedar"
+    ats: ashby
+    identifier: "cedar"
+    industry: [healthtech]
+    relationship: watchlist
+
+# Considered but not supported (no supported public ATS board found, or empty). Revisit if
+# we add an adapter for the noted platform or a working slug turns up:
+#   Lyntris         — JobBoardHQ
+#   Ntrepid         — iCIMS
+#   Aikido          — Recruitee
+#   Rapid7          — custom careers portal + Workday
+#   Alantra         — custom site (financial advisory; industry vocab is a poor fit)
+#   ConductorOne    — no working Ashby/Greenhouse/Lever board found
+#   J2 Health       — Greenhouse board returns empty
+#   Devoted Health  — no working board slug found
+#   Cityblock Health — no working board slug found
+#   Color Health    — no working board slug found

@@ -18,6 +18,10 @@ umbrellas:
         label: "Technical Program Manager"
         include_keywords: ["technical program manager", "technical project manager", "program manager", "tpm"]
         exclude_keywords: ["marketing program", "partner program"]
+      product_analytics:
+        label: "Product Analytics"
+        include_keywords: ["product analyst", "product analytics", "analytics engineer", "analytics engineering", "product data scientist", "data scientist, product"]
+        exclude_keywords: ["marketing", "sales", "security analyst", "soc analyst", "fraud", "financial"]
 
   design:
     label: "Design"
@@ -48,6 +52,10 @@ umbrellas:
         label: "Agentic / AI Engineer"
         include_keywords: ["agentic", "ai engineer", "ml engineer", "machine learning engineer", "applied ai", "applied ml", "llm engineer", "ai software engineer", "gen ai", "generative ai"]
         exclude_keywords: ["ai sales", "ai marketing"]
+      tech_writer:
+        label: "Technical Writer"
+        include_keywords: ["technical writer", "technical writing", "documentation engineer", "documentation specialist", "developer documentation", "docs engineer", "content developer"]
+        exclude_keywords: ["grant writer", "proposal writer", "marketing writer", "copywriter"]
 
   gtm_revenue:
     label: "GTM / Revenue"

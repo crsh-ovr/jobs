@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import asdict, dataclass, field
 
-INDUSTRY_VOCAB = {"cybersecurity", "deftech", "cspm", "finops", "grc"}
+INDUSTRY_VOCAB = {"cybersecurity", "deftech", "cspm", "finops", "grc", "healthtech"}
 TIERS = {"featured", "standard"}
 # Shane's affinity buckets; drives secondary ordering and a display badge.
 RELATIONSHIPS = {"worked", "known", "watchlist"}

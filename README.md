@@ -17,15 +17,15 @@ Companion career guide: **[shane-tips-for-jobs](https://shane-tips-for-jobs.lova
 
 **Role umbrellas** (mirrors the career guide):
 
-- **Product** — Product Manager, Technical Program Manager
+- **Product** — Product Manager, Technical Program Manager, Product Analytics
 - **Design** — Product Designer
-- **Engineering** — Full Stack, Frontend, DevOps / CI-CD / DevEx, Agentic / AI Engineer
+- **Engineering** — Full Stack, Frontend, DevOps / CI-CD / DevEx, Agentic / AI Engineer, Technical Writer
 - **GTM / Revenue** — Recruiter, Technical Recruiter
 
 All levels are kept and tagged: intern, junior, mid, senior, staff, principal, lead,
 manager, director, VP.
 
-**Industries:** cybersecurity, deftech, cspm, finops, grc.
+**Industries:** cybersecurity, deftech, cspm, finops, grc, healthtech.
 
 **Supported ATS platforms:** Ashby, Greenhouse, Lever, Rippling, Gem. (Getro is best-effort
 and off by default; Workday is intentionally not supported.)
