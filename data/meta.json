@@ -5,7 +5,7 @@
       "company": "Horizon3.ai",
       "ats": "ashby",
       "ok": true,
-      "count": 149,
+      "count": 151,
       "error": null,
       "matched": 18,
       "dropped_non_us": 0
@@ -230,7 +230,7 @@
       "company": "Tailscale",
       "ats": "greenhouse",
       "ok": true,
-      "count": 57,
+      "count": 59,
       "error": null,
       "matched": 12,
       "dropped_non_us": 6
@@ -311,7 +311,7 @@
       "company": "Corelight",
       "ats": "greenhouse",
       "ok": true,
-      "count": 12,
+      "count": 13,
       "error": null,
       "matched": 0,
       "dropped_non_us": 0
@@ -707,7 +707,7 @@
       "company": "Lyra Health",
       "ats": "lever",
       "ok": true,
-      "count": 473,
+      "count": 474,
       "error": null,
       "matched": 9,
       "dropped_non_us": 1
@@ -743,8 +743,8 @@
   "any_failures": false,
   "us_only": true,
   "dropped_non_us": 130,
-  "generated_at": "2026-10-24T14:13:15.459823+00:00",
-  "prior_job_count": 486,
+  "generated_at": "2026-10-25T14:44:48.685268+00:00",
+  "prior_job_count": 487,
   "fresh_job_count": 487,
   "total_job_count": 487,
   "shrink_blocked": false
