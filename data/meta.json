@@ -86,7 +86,7 @@
       "company": "Okta",
       "ats": "greenhouse",
       "ok": true,
-      "count": 387,
+      "count": 386,
       "error": null,
       "matched": 85,
       "dropped_non_us": 52
@@ -113,7 +113,7 @@
       "company": "OPSWAT",
       "ats": "greenhouse",
       "ok": true,
-      "count": 95,
+      "count": 94,
       "error": null,
       "matched": 21,
       "dropped_non_us": 15
@@ -338,7 +338,7 @@
       "company": "Censys",
       "ats": "greenhouse",
       "ok": true,
-      "count": 27,
+      "count": 26,
       "error": null,
       "matched": 5,
       "dropped_non_us": 0
@@ -365,7 +365,7 @@
       "company": "Cloudflare",
       "ats": "greenhouse",
       "ok": true,
-      "count": 464,
+      "count": 463,
       "error": null,
       "matched": 34,
       "dropped_non_us": 0
@@ -374,7 +374,7 @@
       "company": "Rubrik",
       "ats": "greenhouse",
       "ok": true,
-      "count": 158,
+      "count": 157,
       "error": null,
       "matched": 16,
       "dropped_non_us": 7
@@ -671,7 +671,7 @@
       "company": "Komodo Health",
       "ats": "greenhouse",
       "ok": true,
-      "count": 23,
+      "count": 22,
       "error": null,
       "matched": 5,
       "dropped_non_us": 0
@@ -743,8 +743,8 @@
   "any_failures": false,
   "us_only": true,
   "dropped_non_us": 145,
-  "generated_at": "2026-10-31T15:57:24.202993+00:00",
-  "prior_job_count": 491,
+  "generated_at": "2026-11-01T17:00:08.126479+00:00",
+  "prior_job_count": 490,
   "fresh_job_count": 490,
   "total_job_count": 490,
   "shrink_blocked": false
