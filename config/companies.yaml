@@ -65,6 +65,20 @@ companies:
     priority: 2
     homepage: "https://leolabs.space"
 
+  - name: "Skylight"
+    ats: greenhouse
+    identifier: "skylighthq"
+    industry: [deftech]
+    priority: 2
+    homepage: "https://skylight.digital"
+
+  - name: "Raft"
+    ats: greenhouse
+    identifier: "raft"
+    industry: [deftech]
+    priority: 2
+    homepage: "https://goraft.tech"
+
   # --- priority 3 :: cybersecurity ---
   - name: "Endor Labs"
     ats: greenhouse
@@ -326,6 +340,54 @@ companies:
     identifier: "helsing"
     industry: [deftech]
     priority: 3
+  - name: "Oddball"
+    ats: greenhouse
+    identifier: "oddball"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://oddball.io"
+  - name: "Nava"
+    ats: greenhouse
+    identifier: "navapbc"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://www.navapbc.com"
+  - name: "Kitware"
+    ats: lever
+    identifier: "kitware"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://www.kitware.com"
+  - name: "Shift5"
+    ats: greenhouse
+    identifier: "shift5"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://shift5.io"
+  - name: "Picogrid"
+    ats: ashby
+    identifier: "picogrid"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://www.picogrid.com"
+  - name: "Quindar"
+    ats: ashby
+    identifier: "quindar"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://www.quindar.space"
+  - name: "Scout AI"
+    ats: ashby
+    identifier: "scout-ai"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://scout.ai"
+  - name: "Primer"
+    ats: ashby
+    identifier: "primer"
+    industry: [deftech]
+    priority: 3
+    homepage: "https://primer.ai"
 
   # --- priority 3 :: healthtech ---
   - name: "Abridge"
