@@ -59,7 +59,7 @@
       "company": "LeoLabs",
       "ats": "greenhouse",
       "ok": true,
-      "count": 28,
+      "count": 27,
       "error": null,
       "matched": 4,
       "dropped_non_us": 0
@@ -104,10 +104,10 @@
       "company": "Okta",
       "ats": "greenhouse",
       "ok": true,
-      "count": 393,
+      "count": 394,
       "error": null,
-      "matched": 86,
-      "dropped_non_us": 53
+      "matched": 88,
+      "dropped_non_us": 54
     },
     {
       "company": "Huntress",
@@ -122,7 +122,7 @@
       "company": "Keeper Security",
       "ats": "greenhouse",
       "ok": true,
-      "count": 87,
+      "count": 89,
       "error": null,
       "matched": 14,
       "dropped_non_us": 2
@@ -194,7 +194,7 @@
       "company": "UltraViolet Cyber",
       "ats": "lever",
       "ok": true,
-      "count": 24,
+      "count": 23,
       "error": null,
       "matched": 0,
       "dropped_non_us": 0
@@ -221,7 +221,7 @@
       "company": "Chainguard",
       "ats": "greenhouse",
       "ok": true,
-      "count": 95,
+      "count": 97,
       "error": null,
       "matched": 2,
       "dropped_non_us": 0
@@ -338,7 +338,7 @@
       "company": "Cribl",
       "ats": "greenhouse",
       "ok": true,
-      "count": 75,
+      "count": 76,
       "error": null,
       "matched": 2,
       "dropped_non_us": 0
@@ -383,7 +383,7 @@
       "company": "Cloudflare",
       "ats": "greenhouse",
       "ok": true,
-      "count": 469,
+      "count": 470,
       "error": null,
       "matched": 31,
       "dropped_non_us": 0
@@ -428,7 +428,7 @@
       "company": "True Anomaly",
       "ats": "greenhouse",
       "ok": true,
-      "count": 205,
+      "count": 204,
       "error": null,
       "matched": 22,
       "dropped_non_us": 0
@@ -446,7 +446,7 @@
       "company": "Skydio",
       "ats": "ashby",
       "ok": true,
-      "count": 188,
+      "count": 189,
       "error": null,
       "matched": 27,
       "dropped_non_us": 1
@@ -572,7 +572,7 @@
       "company": "Shift5",
       "ats": "greenhouse",
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
       "matched": 1,
       "dropped_non_us": 0
@@ -635,7 +635,7 @@
       "company": "Commure",
       "ats": "ashby",
       "ok": true,
-      "count": 83,
+      "count": 84,
       "error": null,
       "matched": 13,
       "dropped_non_us": 2
@@ -644,7 +644,7 @@
       "company": "Bayesian Health",
       "ats": "ashby",
       "ok": true,
-      "count": 13,
+      "count": 12,
       "error": null,
       "matched": 3,
       "dropped_non_us": 0
@@ -788,7 +788,7 @@
       "company": "Talkiatry",
       "ats": "ashby",
       "ok": true,
-      "count": 185,
+      "count": 186,
       "error": null,
       "matched": 5,
       "dropped_non_us": 0
@@ -832,10 +832,10 @@
   ],
   "any_failures": false,
   "us_only": true,
-  "dropped_non_us": 147,
-  "generated_at": "2026-11-02T19:23:39.985348+00:00",
-  "prior_job_count": 490,
-  "fresh_job_count": 518,
-  "total_job_count": 518,
+  "dropped_non_us": 148,
+  "generated_at": "2026-11-02T20:38:06.286941+00:00",
+  "prior_job_count": 518,
+  "fresh_job_count": 519,
+  "total_job_count": 519,
   "shrink_blocked": false
 }
