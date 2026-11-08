@@ -59,9 +59,9 @@
       "company": "LeoLabs",
       "ats": "greenhouse",
       "ok": true,
-      "count": 28,
+      "count": 27,
       "error": null,
-      "matched": 6,
+      "matched": 5,
       "dropped_non_us": 0
     },
     {
@@ -284,7 +284,7 @@
       "company": "Socket",
       "ats": "ashby",
       "ok": true,
-      "count": 27,
+      "count": 26,
       "error": null,
       "matched": 2,
       "dropped_non_us": 0
@@ -401,7 +401,7 @@
       "company": "Fastly",
       "ats": "greenhouse",
       "ok": true,
-      "count": 57,
+      "count": 58,
       "error": null,
       "matched": 7,
       "dropped_non_us": 1
@@ -455,7 +455,7 @@
       "company": "Applied Intuition",
       "ats": "ashby",
       "ok": true,
-      "count": 323,
+      "count": 322,
       "error": null,
       "matched": 45,
       "dropped_non_us": 4
@@ -464,7 +464,7 @@
       "company": "Harmattan AI",
       "ats": "ashby",
       "ok": true,
-      "count": 159,
+      "count": 161,
       "error": null,
       "matched": 7,
       "dropped_non_us": 6
@@ -500,7 +500,7 @@
       "company": "Shield AI",
       "ats": "lever",
       "ok": true,
-      "count": 659,
+      "count": 660,
       "error": null,
       "matched": 55,
       "dropped_non_us": 4
@@ -563,7 +563,7 @@
       "company": "Kitware",
       "ats": "lever",
       "ok": true,
-      "count": 19,
+      "count": 20,
       "error": null,
       "matched": 2,
       "dropped_non_us": 0
@@ -833,9 +833,9 @@
   "any_failures": false,
   "us_only": true,
   "dropped_non_us": 153,
-  "generated_at": "2026-11-07T16:44:35.118929+00:00",
-  "prior_job_count": 533,
-  "fresh_job_count": 530,
-  "total_job_count": 530,
+  "generated_at": "2026-11-08T16:55:08.607404+00:00",
+  "prior_job_count": 530,
+  "fresh_job_count": 529,
+  "total_job_count": 529,
   "shrink_blocked": false
 }
