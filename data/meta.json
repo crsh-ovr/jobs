@@ -86,7 +86,7 @@
       "company": "Endor Labs",
       "ats": "greenhouse",
       "ok": true,
-      "count": 43,
+      "count": 42,
       "error": null,
       "matched": 5,
       "dropped_non_us": 2
@@ -104,7 +104,7 @@
       "company": "Okta",
       "ats": "greenhouse",
       "ok": true,
-      "count": 372,
+      "count": 373,
       "error": null,
       "matched": 83,
       "dropped_non_us": 53
@@ -239,7 +239,7 @@
       "company": "1Password",
       "ats": "ashby",
       "ok": true,
-      "count": 81,
+      "count": 80,
       "error": null,
       "matched": 8,
       "dropped_non_us": 3
@@ -356,7 +356,7 @@
       "company": "Censys",
       "ats": "greenhouse",
       "ok": true,
-      "count": 27,
+      "count": 25,
       "error": null,
       "matched": 5,
       "dropped_non_us": 0
@@ -410,7 +410,7 @@
       "company": "SentinelOne",
       "ats": "greenhouse",
       "ok": true,
-      "count": 262,
+      "count": 263,
       "error": null,
       "matched": 33,
       "dropped_non_us": 24
@@ -455,7 +455,7 @@
       "company": "Applied Intuition",
       "ats": "ashby",
       "ok": true,
-      "count": 336,
+      "count": 333,
       "error": null,
       "matched": 47,
       "dropped_non_us": 4
@@ -545,7 +545,7 @@
       "company": "Oddball",
       "ats": "greenhouse",
       "ok": true,
-      "count": 15,
+      "count": 20,
       "error": null,
       "matched": 6,
       "dropped_non_us": 0
@@ -833,8 +833,8 @@
   "any_failures": true,
   "us_only": true,
   "dropped_non_us": 160,
-  "generated_at": "2026-11-21T17:53:10.965179+00:00",
-  "prior_job_count": 470,
+  "generated_at": "2026-11-22T18:13:12.210657+00:00",
+  "prior_job_count": 472,
   "fresh_job_count": 472,
   "total_job_count": 472,
   "shrink_blocked": false
