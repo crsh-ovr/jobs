@@ -5,7 +5,7 @@
       "company": "Horizon3.ai",
       "ats": "ashby",
       "ok": true,
-      "count": 203,
+      "count": 201,
       "error": null,
       "matched": 20,
       "dropped_non_us": 0
@@ -86,7 +86,7 @@
       "company": "Endor Labs",
       "ats": "greenhouse",
       "ok": true,
-      "count": 42,
+      "count": 41,
       "error": null,
       "matched": 4,
       "dropped_non_us": 2
@@ -104,16 +104,16 @@
       "company": "Okta",
       "ats": "greenhouse",
       "ok": true,
-      "count": 368,
+      "count": 360,
       "error": null,
-      "matched": 80,
+      "matched": 79,
       "dropped_non_us": 52
     },
     {
       "company": "Huntress",
       "ats": "greenhouse",
       "ok": true,
-      "count": 44,
+      "count": 43,
       "error": null,
       "matched": 4,
       "dropped_non_us": 0
@@ -131,7 +131,7 @@
       "company": "OPSWAT",
       "ats": "greenhouse",
       "ok": true,
-      "count": 95,
+      "count": 94,
       "error": null,
       "matched": 20,
       "dropped_non_us": 14
@@ -149,7 +149,7 @@
       "company": "XBOW",
       "ats": "ashby",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null,
       "matched": 0,
       "dropped_non_us": 0
@@ -212,9 +212,9 @@
       "company": "Abnormal AI",
       "ats": "greenhouse",
       "ok": true,
-      "count": 84,
+      "count": 83,
       "error": null,
-      "matched": 4,
+      "matched": 5,
       "dropped_non_us": 1
     },
     {
@@ -248,7 +248,7 @@
       "company": "Tailscale",
       "ats": "greenhouse",
       "ok": true,
-      "count": 84,
+      "count": 87,
       "error": null,
       "matched": 20,
       "dropped_non_us": 10
@@ -257,7 +257,7 @@
       "company": "Axonius",
       "ats": "greenhouse",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": null,
       "matched": 2,
       "dropped_non_us": 2
@@ -284,7 +284,7 @@
       "company": "Socket",
       "ats": "ashby",
       "ok": true,
-      "count": 24,
+      "count": 22,
       "error": null,
       "matched": 1,
       "dropped_non_us": 0
@@ -338,7 +338,7 @@
       "company": "Cribl",
       "ats": "greenhouse",
       "ok": true,
-      "count": 81,
+      "count": 77,
       "error": null,
       "matched": 4,
       "dropped_non_us": 1
@@ -374,7 +374,7 @@
       "company": "Tracebit",
       "ats": "ashby",
       "ok": true,
-      "count": 5,
+      "count": 6,
       "error": null,
       "matched": 0,
       "dropped_non_us": 0
@@ -383,7 +383,7 @@
       "company": "Cloudflare",
       "ats": "greenhouse",
       "ok": true,
-      "count": 523,
+      "count": 528,
       "error": null,
       "matched": 31,
       "dropped_non_us": 0
@@ -392,7 +392,7 @@
       "company": "Rubrik",
       "ats": "greenhouse",
       "ok": true,
-      "count": 220,
+      "count": 223,
       "error": null,
       "matched": 21,
       "dropped_non_us": 12
@@ -401,7 +401,7 @@
       "company": "Fastly",
       "ats": "greenhouse",
       "ok": true,
-      "count": 50,
+      "count": 51,
       "error": null,
       "matched": 6,
       "dropped_non_us": 2
@@ -410,10 +410,10 @@
       "company": "SentinelOne",
       "ats": "greenhouse",
       "ok": true,
-      "count": 240,
+      "count": 249,
       "error": null,
-      "matched": 27,
-      "dropped_non_us": 18
+      "matched": 33,
+      "dropped_non_us": 24
     },
     {
       "company": "Mach Industries",
@@ -428,7 +428,7 @@
       "company": "True Anomaly",
       "ats": "greenhouse",
       "ok": true,
-      "count": 213,
+      "count": 215,
       "error": null,
       "matched": 25,
       "dropped_non_us": 0
@@ -446,7 +446,7 @@
       "company": "Skydio",
       "ats": "ashby",
       "ok": true,
-      "count": 184,
+      "count": 186,
       "error": null,
       "matched": 25,
       "dropped_non_us": 1
@@ -455,7 +455,7 @@
       "company": "Applied Intuition",
       "ats": "ashby",
       "ok": true,
-      "count": 331,
+      "count": 330,
       "error": null,
       "matched": 47,
       "dropped_non_us": 4
@@ -464,7 +464,7 @@
       "company": "Harmattan AI",
       "ats": "ashby",
       "ok": true,
-      "count": 176,
+      "count": 183,
       "error": null,
       "matched": 10,
       "dropped_non_us": 7
@@ -536,7 +536,7 @@
       "company": "Helsing",
       "ats": "greenhouse",
       "ok": true,
-      "count": 176,
+      "count": 175,
       "error": null,
       "matched": 10,
       "dropped_non_us": 8
@@ -590,7 +590,7 @@
       "company": "Quindar",
       "ats": "ashby",
       "ok": true,
-      "count": 15,
+      "count": 16,
       "error": null,
       "matched": 5,
       "dropped_non_us": 0
@@ -599,7 +599,7 @@
       "company": "Scout AI",
       "ats": "ashby",
       "ok": true,
-      "count": 33,
+      "count": 36,
       "error": null,
       "matched": 5,
       "dropped_non_us": 0
@@ -680,16 +680,16 @@
       "company": "AcuityMD",
       "ats": "greenhouse",
       "ok": true,
-      "count": 10,
+      "count": 9,
       "error": null,
-      "matched": 4,
+      "matched": 3,
       "dropped_non_us": 0
     },
     {
       "company": "Twin Health",
       "ats": "greenhouse",
       "ok": true,
-      "count": 38,
+      "count": 40,
       "error": null,
       "matched": 12,
       "dropped_non_us": 1
@@ -734,7 +734,7 @@
       "company": "Medsien",
       "ats": "greenhouse",
       "ok": true,
-      "count": 32,
+      "count": 30,
       "error": null,
       "matched": 4,
       "dropped_non_us": 3
@@ -743,7 +743,7 @@
       "company": "Zocdoc",
       "ats": "greenhouse",
       "ok": true,
-      "count": 63,
+      "count": 64,
       "error": null,
       "matched": 14,
       "dropped_non_us": 2
@@ -779,7 +779,7 @@
       "company": "Included Health",
       "ats": "lever",
       "ok": true,
-      "count": 41,
+      "count": 42,
       "error": null,
       "matched": 0,
       "dropped_non_us": 0
@@ -797,7 +797,7 @@
       "company": "Lyra Health",
       "ats": "lever",
       "ok": true,
-      "count": 421,
+      "count": 420,
       "error": null,
       "matched": 9,
       "dropped_non_us": 1
@@ -832,10 +832,10 @@
   ],
   "any_failures": true,
   "us_only": true,
-  "dropped_non_us": 153,
-  "generated_at": "2026-11-25T20:22:14.453072+00:00",
-  "prior_job_count": 469,
-  "fresh_job_count": 463,
-  "total_job_count": 463,
+  "dropped_non_us": 159,
+  "generated_at": "2026-11-26T19:58:35.758060+00:00",
+  "prior_job_count": 463,
+  "fresh_job_count": 462,
+  "total_job_count": 462,
   "shrink_blocked": false
 }
